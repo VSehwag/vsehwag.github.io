@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+}
+/* http://noisepng.com/ */
+body {
+  margin: 0 auto;
+  font-family: Optima, "Helvetica Neue", Helvetica, monospace, "Courier New",
+    Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  max-width: 100%;
+  background-image: url("./../images/backrgound.jpg");
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.container,
+.project-divider {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+a,
+.container a,
+i {
+  text-decoration: none;
+  color: #008dcd;
+}
+
+.full-project-divider hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  margin: 0px 0px;
+}
+
+.full-project-divider {
+  margin: 0px;
+}
+
+.container {
+  margin: 10px auto;
+}
+a {
+  color: black;
+}
+
+a:hover {
+  color: #994301;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  /* background-color:#008dcd; */
+  /* background-color: #7395ae; */
+  /* background: linear-gradient(#7395ae, white); */
+}
+
+.fixed-nav-bar{
+  transition:500ms ease;
+  background:#e1e1e1;
+}
+
+/* .fixed-nav-bar.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+} */
+
+nav ul {
+  display: inline-block;
+}
+
+nav .nav-right {
+  text-align: right;
+  margin: 0px 0px 0px 150px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.8em;
+  margin: 0px 30px;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.top-divider {
+  margin-top: 50px;
+}
+
+.website-links {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+/* .pub-divider hr {
+  border: 0;
+  height: 1px;
+  opacity: 0.4;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+} */
+
+.pub-divider hr {
+  border: 0;
+  margin: 10px 0px;
+  height: 1px;
+  opacity: 0.40
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.project-divider hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0px 0px;
+}
+
+.box {
+  padding: 0px 10px;
+}
+
+.box h2,
+h3 {
+  margin: 0px;
+  text-align: center;
+  font-weight: lighter;
+}
+.bio {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-row-gap: 5px; /* reduces to spacing below grid for 1 row */
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0px 0px 0px;
+  /* make sure nav-bar doesn't cover it.  margin-top: 100px; */
+}
+
+.profile .name {
+  margin-top: 10px;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: normal;
+}
+
+.profile .affil {
+  font-size: 1.2em;
+}
+
+.profile .email {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.about-me {
+  margin-top: 0px;
+}
+.about-me li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 2.2em;
+}
+
+.about-me ul {
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.about-me ul:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /*font-family: FontAwesome;*/
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.awards {
+  font-size: 0.8em;
+}
+
+.profile {
+  grid-column: 1;
+  grid-row: 1/3;
+  text-align: center;
+}
+.about-me {
+  grid-column: 2/4;
+  grid-row: 1;
+}
+.interests {
+  grid-column: 2;
+  grid-row: 2;
+}
+.experience {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.profile .headshot img {
+  height: auto;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.news {
+  border: 0px;
+  margin: inherit auto;
+}
+
+.section-heading {
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: normal;
+}
+
+.news-mini-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 350px;
+}
+
+/* .news-grid {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-auto-rows: min-content;
+  text-align: left;
+  column-gap: 30px;
+} */
+
+.news-grid {
+  text-align: left;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: top;
+  margin-bottom: 2px;
+  font-size: 0.9em;
+}
+
+.flex-container .news-text {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+/* .news .month {
+  text-align: center;
+}
+.news-text {
+  text-align: left;
+  line-height: 1.4em;
+  padding-right: 10px;
+} */
+
+.pubs-section-box {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr 1.15fr;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.work-in-progress p {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.work-in-progress .pubs-section-box {
+  display: grid;
+  grid-template-columns: 0.5fr 5.5fr 0.1fr;
+  column-gap: 10px;
+  margin: 5px 0px;
+}
+
+.pubs-section .theme, #theme-text {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.pubs-section #theme-text {
+  font-weight: bold;
+  color: #d06105;
+  text-decoration: none;
+}
+
+.pubs-section-box .bullet-small {
+  font-size: 2em;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 2px 20px;
+}
+
+.pubs-section-box .bullet {
+  font-size: 2em;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 20px 20px;
+}
+
+.pubs-box {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  column-gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pubs-data {
+  padding: 0px 10px;
+  line-height: 1.3em;
+}
+
+.pubs-data p {
+  margin: 0px;
+}
+
+.pubs-data .title {
+  font-weight: bold;
+}
+
+.pubs-data .venue {
+  font-style: italic;
+}
+
+.pubs-image {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px 5px;
+
+}
+.pubs-image img {
+  height: 80px;
+  width: auto;
+  border-radius: 10px;
+  padding: 0px 0px;
+  vertical-align: top;
+  box-shadow: 0 0 1px 1px lightgray;
+}
+
+.pubs-data .links {
+  margin: 0px 50px;
+}
+
+.pubs-data .links a {
+  text-decoration: none;
+}
+
+.key-pubs {
+  background-color: #e9d8ca;
+}
+
+footer {
+  margin-bottom: 10px;
+  text-align: center;
+}
