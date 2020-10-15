@@ -26,6 +26,11 @@
     src="https://kit.fontawesome.com/b939870cfb.js"
     crossorigin="anonymous"
   ></script>
+  <script
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  ></script>
   <link rel="shortcut icon" href="./images/favicon.ico" />
   <title>Vikash Sehwag</title>
 </head>
@@ -37,10 +42,14 @@
       <ul>
         <li><a href="#aboutme"> About me</a></li>
         <li><a href="#pubs"> Publications</a></li>
-        <li><a href="#"> Teaching</a></li>
+        <li><a href="#teaching"> Teaching</a></li>
       </ul>
       <ul class="nav-right">
-        <li><a href="#"> Curriculum vitae</a></li>
+        <li>
+          <a href="./docs/vikash_sehwag_cv.pdf" target="_blank">
+            Curriculum vitae</a
+          >
+        </li>
       </ul>
     </div>
   </nav>
@@ -60,11 +69,13 @@
     <div class="box about-me">
       <p>
         I am a PhD candidate in Electrical Engineering at Princeton University.
-        I'm interested in research problems at the intersection of security,
-        privacy, and machine learning. Some topics I have worked on are
-        adversarial robust learning, self-supervised learning, robust anomaly
-        detection with deep learning, privacy leakage in deep learning, faster
-        federated learning.
+        I am interested in research problems at the intersection of
+        <em>security, privacy, and machine learning</em>. Some topics I have
+        worked on are adversarial robust supervised/self-supervised learning,
+        adversarial robustness in compressed neural networks, open-world machine
+        learning, self-supervised detection of outliers, adversarial robust
+        outlier detection, privacy leakage in large scale deep learning, and
+        faster-federated learning.
       </p>
       <p>
         I am co-advised by Prof.
@@ -75,14 +86,14 @@
         Science) from
         <a href="http://www.iitkgp.ac.in/"
           >the Indian Institute of Technology, Kharagpur</a
-        >. I also had an amazing internship experience at Microsoft research in
-        summer 2020. Before that, I spent a wonderful summer working with Heinz
-        Koeppl at TU Darmstadt. I have also been fortunate to receive Qualcomm
-        innovation fellowship 2019.
+        >. I also had an amazing internship experience at Microsoft Research,
+        Redmond in summer 2020. Before that, I spent a wonderful summer working
+        with Heinz Koeppl at TU Darmstadt. I have also been fortunate to receive
+        Qualcomm innovation fellowship in 2019.
       </p>
       <p>
-        Feel free to reach out if you find my work interesting or just looking
-        for any collaborative opportunities.
+        Feel free to reach out if you find my work interesting or looking for
+        any collaborative opportunities.
       </p>
       <ul>
         <li>
@@ -125,6 +136,8 @@
 
   <div class="project-divider"><hr /></div>
 
+  <!-- REPLACE THE TWEET SECTION WITH UPCOMING TALKS. -->
+
   <!-- News: Second section of the webpage-->
   <div class="news container">
     <p class="section-heading">News</p>
@@ -133,18 +146,18 @@
         <div class="flex-container">
           <div>07/2020</div>
           <div class="news-text">
-            Work on fast-convergent federated learning up on
+            Work on fast-convergent federated learning is up on
             <a href="https://arxiv.org/abs/2007.13137">arxiv</a> (led by
             <a
               href="https://scholar.google.com/citations?user=MO7SaHEAAAAJ&hl=en"
-              >Hung Nguyen</a
+              >Hung T. Nguyen</a
             >).
           </div>
         </div>
         <div class="flex-container">
           <div>08/2020</div>
           <div class="news-text">
-            Paper on Background check of deep learning accepted at
+            Paper on background check of deep learning accepted at
             <a href="https://oolworkshop.github.io/">ICML OOL workshop</a>
             (<a href="https://arxiv.org/pdf/2006.14077.pdf">pdf</a>,
             <a
@@ -170,24 +183,28 @@
             Volunteered as junior mentor at
             <a
               href="https://researchcomputing.princeton.edu/events/princeton-olcf-nvidia-gpu-hackathon"
-              >Princeton-OLCF-NVIDIA GPU Hackathon</a
+              >Princeton-OLCF-NVIDIA GPU Hackathon.</a
             >
           </div>
         </div>
         <div class="flex-container">
           <div>08/2020</div>
           <div class="news-text">
-            Releasing <a>PatchGuard</a>, a provable defense against adversarial
-            patches (led by <a href="https://xiangchong.xyz/">Chong Xiang</a>)
-            (<a href="https://arxiv.org/pdf/2005.10884.pdf">Pdf</a>,
-            <a href="https://github.com/inspire-group/PatchGuard">Code</a>)
+            Releasing PatchGuard, a provable defense against adversarial patches
+            (led by <a href="https://xiangchong.xyz/">Chong Xiang</a>) (<a
+              href="https://arxiv.org/pdf/2005.10884.pdf"
+              >Pdf</a
+            >, <a href="https://github.com/inspire-group/PatchGuard">Code</a>).
           </div>
         </div>
         <div class="flex-container">
           <div>04/2020</div>
           <div class="news-text">
             Work on pruning robust networks accepted at
-            <a>ICLR TTML workshop</a> (<a
+            <a href="https://trustworthyiclr20.github.io/" target="_blank"
+              >ICLR TTML workshop</a
+            >
+            (<a
               href="https://docs.google.com/presentation/d/1yLSnvUR5MFhv-Dp2yuQEF1QuFNffTSomUGuiZsZJmbY/edit?usp=sharing"
               >slides</a
             >,
@@ -200,8 +217,8 @@
         <div class="flex-container">
           <div>01/2020</div>
           <div class="news-text">
-            Taught a min-course on adversarial attacks & defenses in Winterssion
-            (<a
+            Taught a mini-course on adversarial attacks & defenses in
+            Winterssion 2020 (<a
               href="https://docs.google.com/presentation/d/1bs7xMYndjUshWkgLppmpnle_ZWkVTA7QoOfJ79nG-Ko/edit?usp=sharing"
               >Slides</a
             >,
@@ -214,7 +231,7 @@
         <div class="flex-container">
           <div>11/2019</div>
           <div class="news-text">
-            Will present our paper on robust open-world ML at
+            Will present our paper on robust open-world machine learning at
             <a href="https://aisec.cc/">AISec 2019</a> (<a
               href="https://docs.google.com/presentation/d/12NQfyzcztr00gjicu0-BzROV178_fSJNTXMraoCspvw/edit?usp=sharing"
               >Slides</a
@@ -224,7 +241,8 @@
         <div class="flex-container">
           <div>09/2019</div>
           <div class="news-text">
-            Finished amazing internship at Microsoft research, Redmond.
+            Finished amazing suumer research internship at Microsoft Research,
+            Redmond.
           </div>
         </div>
         <div class="flex-container">
@@ -240,7 +258,7 @@
             Won
             <a
               href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
-              >Qualcomm innovation fellowship 2019</a
+              >Qualcomm Innovation Fellowship 2019</a
             >.
           </div>
         </div>
@@ -282,11 +300,9 @@
         <p class="bullet-small">&#10143;</p>
         <div class="pubs-data">
           <p class="title">
-            SSD: Self-supervised detection of out-of-distribution data.
+            SSD: A Unified Framework for Self-Supervised Outlier Detection.
           </p>
-          <p class="authors">
-            <em>Vikash Sehwag</em>, Mung Chiang, Prateek Mittal
-          </p>
+          <p class="authors">with Mung Chiang, Prateek Mittal</p>
         </div>
       </div>
       <div class="pubs-section-box">
@@ -298,9 +314,16 @@
               >Workshop paper</a
             >).
           </p>
-          <p class="authors">
-            <em>Vikash Sehwag</em>, Mung Chiang, Prateek Mittal
+          <p class="authors">with Mung Chiang, Prateek Mittal</p>
+        </div>
+      </div>
+      <div class="pubs-section-box">
+        <p class="bullet-small">&#10143;</p>
+        <div class="pubs-data">
+          <p class="title">
+            Adversarial attacks and defenses beyond \( \ell_p \) norms
           </p>
+          <p class="authors">with Jay Stokes, Cha Zhang</p>
         </div>
       </div>
       <div class="pubs-section-box">
@@ -311,8 +334,7 @@
             Learning
           </p>
           <p class="authors">
-            <em>Vikash Sehwag</em>, Kavya Chandran, Liwei Song, Mung Chiang,
-            Prateek Mittal
+            with Kavya Chandran, Liwei Song, Mung Chiang, Prateek Mittal
           </p>
         </div>
       </div>
@@ -326,8 +348,8 @@
           AdvBench: Tracking the Progress in Adversarial Robustness
         </p>
         <p class="authors">
-          Francesco Croce, Maksym Andriushchenko, <em>Vikash Sehwag</em>,
-          <br />Mung Chiang, Prateek Mittal, Nicolas Flammarion, Matthias Hein
+          Francesco Croce, Maksym Andriushchenko, <em>Vikash Sehwag</em>, <br />
+          Nicolas Flammarion, Mung Chiang, Prateek Mittal, Matthias Hein
         </p>
         <p class="venue">Arxiv, 2020</p>
         <p class="links">
@@ -347,8 +369,8 @@
         </p>
 
         <p class="summary">
-          We provide a leaderbaord to track progress + a library for unified
-          access to SOTA defenses againt adversrial examples.
+          We provide a leaderboard to track progress + a library for unified
+          access to SOTA defenses against adversarial examples.
         </p>
       </div>
       <div class="pubs-image">
@@ -409,8 +431,8 @@
         </p>
 
         <p class="summary">
-          We investigate background invariance and influence for over 32 deep
-          neural networks on ImageNet dataset.
+          We investigate background invariance and influence over 32 deep neural
+          networks on ImageNet dataset.
         </p>
       </div>
       <div class="pubs-image">
@@ -422,7 +444,7 @@
 
     <div class="pubs-box">
       <div class="pubs-data">
-        <p class="title">On separability of self-supervised representations.</p>
+        <p class="title">On Separability of Self-Supervised Representations</p>
         <p class="authors">
           <em>Vikash Sehwag</em>, Mung Chiang, Prateek Mittal
         </p>
@@ -454,7 +476,7 @@
         </p>
 
         <p class="summary">
-          We compare the respresentation learned by a number of self-supervised
+          We compare the representations learned by several self-supervised
           methods with supervised networks.
         </p>
       </div>
@@ -504,8 +526,8 @@
 
     <div class="pubs-section">
       <p class="theme">
-        <span id="theme-text">Theme:</span> Developing robust
-        <em>yet</em> compact neural networks.
+        <span id="theme-text">Theme:</span> How to design robust
+        <em>yet</em> compact neural networks?
       </p>
 
       <div class="pubs-section-box key-pubs">
@@ -518,7 +540,7 @@
             <em>Vikash Sehwag</em>, Shiqi Wang, Prateek Mittal, Suman Jana
           </p>
           <p class="venue">
-            In submission to NeurIPS 2020,
+            To appear in <strong>NeurIPS</strong> 2020,
             <a href="" target="_blank">Short paper</a> in ICLR workshop on
             Trustworthy Machine Learning
           </p>
@@ -568,7 +590,7 @@
 
           <p class="summary">
             We achieve state-of-the-art accuracy and robustness for pruned
-            networks (pruning upto 100x).
+            networks (pruning up to 100x).
           </p>
         </div>
         <div class="pubs-image"><img src="./projects/hydra/hydra.png" /></div>
@@ -577,49 +599,28 @@
       <div class="pubs-section-box">
         <p class="bullet">&#9758;</p>
         <div class="pubs-data">
-          <p class="title">Developing robust yet compact neural networks.</p>
+          <p class="title">Towards Compact and Robust Deep Neural Networks</p>
           <p class="authors">
-            <em>Vikash Sehwag</em>, Arjun Nitin Bhagoji, Liwei Song, Chawin
-            Sitawarin, Daniel Cullina, Mung Chiang, Prateek Mittal
+            <em>Vikash Sehwag</em>, Shiqi Wang, Prateek Mittal, Suman Jana
           </p>
-          <p class="venue">
-            ACM Workshop on Artificial Intelligence and Security (AISec), 2019
-          </p>
+          <p class="venue">Arxiv, 2019</p>
           <p class="links">
             <span
-              ><a
-                href="https://dl.acm.org/doi/pdf/10.1145/3338501.3357372"
-                target="_blank"
+              ><a href="https://arxiv.org/abs/1906.06110" target="_blank"
                 >Pdf</a
               ></span
             >
             /
             <span
-              ><a href="./projects/ood_aisec/bibtex.html" target="_blank"
+              ><a href="./projects/hydra/bibtex.html" target="_blank"
                 >Bibtex</a
-              ></span
-            >
-            /
-            <span
-              ><a
-                href="https://github.com/inspire-group/OOD-Attacks"
-                target="_blank"
-                >Code</a
-              ></span
-            >
-            /
-            <span
-              ><a
-                href="https://docs.google.com/presentation/d/12NQfyzcztr00gjicu0-BzROV178_fSJNTXMraoCspvw/edit?usp=sharing"
-                target="_blank"
-                >Slides</a
               ></span
             >
           </p>
 
           <p class="summary">
-            We demonstrate the vulenrability of open-world ML to adversarial
-            examples and propose a defense.
+            We investigate the impact of network pruning on both empirical and
+            provable adversarial robustness.
           </p>
         </div>
 
@@ -661,7 +662,7 @@
 
         <p class="summary">
           We proposed a fast-convergent federated learning algorithm, called
-          FOLB, which improves convergence spped by an intellegent sampling of
+          FOLB, which improves convergence speed by an intelligent sampling of
           devices in each round.
         </p>
       </div>
@@ -766,8 +767,8 @@
           </p>
 
           <p class="summary">
-            We demonstrate the vulenrability of open-world ML to adversarial
-            examples and propose a defense.
+            We demonstrate the vulnerability of open-world ML to adversarial
+            examples and proposed a defense.
           </p>
         </div>
 
@@ -839,6 +840,71 @@
         </div>
       </div>
     </div>
+
+    <div class="full-project-divider top-divider"><hr /></div>
+
+    <div class="news container" id="teaching">
+      <p class="section-heading">Academic Services</p>
+      <div class="pubs-section work-in-progress">
+        <p class="theme">Teaching and Mentoring</p>
+
+        <div class="pubs-section-box">
+          <p class="bullet-small">&#10143;</p>
+          <div class="pubs-data">
+            Taught a mini-course on adversarial attacks & defenses (Winterssion
+            2020)
+          </div>
+        </div>
+        <div class="pubs-section-box">
+          <p class="bullet-small">&#10143;</p>
+          <div class="pubs-data">
+            Teaching assistant for ELE 535: Machine Learning and Pattern
+            Recognition (Fall 2019)
+          </div>
+        </div>
+        <div class="pubs-section-box">
+          <p class="bullet-small">&#10143;</p>
+          <div class="pubs-data">
+            Mentoring Princeton undergraduates for their senior independent
+            research work <br />
+            Tinashe Handina (B.S.E., Electrical Engineering 2021); Matteo Russo
+            (B.S.E., Computer Science 2020)
+          </div>
+        </div>
+
+        <p class="theme">Other Services</p>
+
+        <div class="pubs-section-box">
+          <p class="bullet-small">&#10143;</p>
+          <div class="pubs-data">
+            One of the three core maintainers of Adversarial Robustness
+            Benchmark (<a href="https://advbench.github.io/" target="_blank"
+              >advbench.github.io</a
+            >)
+          </div>
+        </div>
+        <div class="pubs-section-box">
+          <p class="bullet-small">&#10143;</p>
+          <div class="pubs-data">
+            Volunteered as junior mentor at Princeton-OLCF-NVIDIA GPU Hackathon
+            (June 2020)
+          </div>
+        </div>
+        <div class="pubs-section-box">
+          <p class="bullet-small">&#10143;</p>
+          <div class="pubs-data">
+            Reviewer for ACM Transactions on Privacy and Security (TOPS), PLOS
+            One
+          </div>
+        </div>
+        <div class="pubs-section-box">
+          <p class="bullet-small">&#10143;</p>
+          <div class="pubs-data">
+            Sub-reviewer for USENIX Security 2018, 2019
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="full-project-divider"><hr /></div>
@@ -846,8 +912,7 @@
   <footer>
     <small
       >&copy; 2020, Vikash Sehwag &emsp; &emsp; &emsp; Feel free to use the
-      <a>source code</a>, no strings attached (If you wish, just add a link back
-      to this page).
+      <a>source code</a>, no strings attached.
     </small>
   </footer>
 </body>

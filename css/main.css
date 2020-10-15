@@ -6,7 +6,7 @@ body {
   margin: 0 auto;
   font-family: Optima, "Helvetica Neue", Helvetica, monospace, "Courier New",
     Arial, sans-serif;
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 1.5em;
   max-width: 100%;
   background-image: url("./../images/backrgound.jpg");
@@ -26,7 +26,7 @@ body {
 .container,
 .project-divider {
   margin: 0 auto;
-  max-width: 950px;
+  max-width: 1000px;
 }
 
 a,
@@ -72,6 +72,7 @@ nav {
 
 .fixed-nav-bar{
   transition:500ms ease;
+  /* background-image: linear-gradient(to bottom, #e1f6ff, whitesmoke); */
   background:#e1e1e1;
 }
 
@@ -85,8 +86,8 @@ nav ul {
 }
 
 nav .nav-right {
+  float: right;
   text-align: right;
-  margin: 0px 0px 0px 150px;
 }
 
 nav li {
@@ -332,7 +333,7 @@ h3 {
   grid-template-columns: 4fr 1fr;
   column-gap: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .pubs-data {
