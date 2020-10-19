@@ -52,9 +52,10 @@
         </li>
       </ul>
     </div>
+    <div class="navrule"></div>
   </nav>
 
-  <div class="full-project-divider top-divider"><hr /></div>
+  <div class="full-project-divider top-divider"></div>
 
   <!-- Biography: first section of webpage -->
   <div class="bio container" id="aboutme">
@@ -68,28 +69,42 @@
     </div>
     <div class="box about-me">
       <p>
-        I am a PhD candidate in Electrical Engineering at Princeton University.
-        I am interested in research problems at the intersection of
+        I am a PhD candidate in Electrical Engineering at
+        <a href="https://www.princeton.edu/" target="_blank"
+          >Princeton University</a
+        >. I am interested in research problems at the intersection of
         <em>security, privacy, and machine learning</em>. Some topics I have
-        worked on are adversarial robust supervised/self-supervised learning,
-        adversarial robustness in compressed neural networks, open-world machine
-        learning, self-supervised detection of outliers, adversarial robust
-        outlier detection, privacy leakage in large scale deep learning, and
-        faster-federated learning.
+        worked on are adversarial robust supervised / self-supervised learning,
+        adversarial robustness in compressed neural networks, self-supervised
+        detection of outliers, robust open-world machine learning, and privacy
+        leakage in large scale deep learning.
       </p>
       <p>
-        I am co-advised by Prof.
+        I am co-advised by
         <a href="https://www.princeton.edu/~pmittal/">Prateek Mittal</a> and
-        Prof. <a href="https://www.princeton.edu/~chiangm/">Mung Chiang</a>.
-        Before joining Princeton, I completed my undergraduate in Electronics
-        and Electrical Communication Engineering (with minor in Computer
-        Science) from
-        <a href="http://www.iitkgp.ac.in/"
-          >the Indian Institute of Technology, Kharagpur</a
-        >. I also had an amazing internship experience at Microsoft Research,
-        Redmond in summer 2020. Before that, I spent a wonderful summer working
-        with Heinz Koeppl at TU Darmstadt. I have also been fortunate to receive
-        Qualcomm innovation fellowship in 2019.
+        <a href="https://www.princeton.edu/~chiangm/">Mung Chiang</a>. Before
+        joining Princeton, I completed my undergraduate in E&ECE (with minor in
+        CS) from <a href="http://www.iitkgp.ac.in/">IIT Kharagpur</a>, India. I
+        earlier had an amazing summer internship experience at
+        <a
+          href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/"
+          target="_blank"
+          >Microsoft Research</a
+        >, Redmond. Before that, I spent a wonderful summer working with
+        <a
+          href="https://www.bcs.tu-darmstadt.de/biocomm/people_1/professor/heinzkoeppl.en.jsp"
+          target="_blank"
+          >Heinz Koeppl</a
+        >
+        at
+        <a href="https://www.tu-darmstadt.de/" target="_blank">TU Darmstadt</a>.
+        I have also been fortunate to receive
+        <a
+          href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
+          target="_blank"
+          >Qualcomm Innovation Fellowship</a
+        >
+        in 2019.
       </p>
       <p>
         Feel free to reach out if you find my work interesting or looking for
@@ -140,9 +155,18 @@
 
   <!-- News: Second section of the webpage-->
   <div class="news container">
-    <p class="section-heading">News</p>
     <div class="news-mini-container">
       <div class="news-grid">
+        <p class="section-heading">News</p>
+        <div class="flex-container">
+          <div>10/2020</div>
+          <div class="news-text">
+            Releasing
+            <a href="https://robustbench.github.io" target="_blank"
+              >RobustBench</a
+            >, a standardized benchmark for adversarial robustness.
+          </div>
+        </div>
         <div class="flex-container">
           <div>07/2020</div>
           <div class="news-text">
@@ -155,7 +179,7 @@
           </div>
         </div>
         <div class="flex-container">
-          <div>08/2020</div>
+          <div>07/2020</div>
           <div class="news-text">
             Paper on background check of deep learning accepted at
             <a href="https://oolworkshop.github.io/">ICML OOL workshop</a>
@@ -169,12 +193,14 @@
           </div>
         </div>
         <div class="flex-container">
-          <div>08/2020</div>
+          <div>07/2020</div>
           <div class="news-text">
             Work on separability of self-supervised representations, and another
             one on critical evaluation of open-world meachine learning, accepted
             at
-            <a href="">ICML UDL workshop</a>.
+            <a href="https://sites.google.com/view/udlworkshop2020/home"
+              >ICML UDL workshop</a
+            >.
           </div>
         </div>
         <div class="flex-container">
@@ -188,7 +214,7 @@
           </div>
         </div>
         <div class="flex-container">
-          <div>08/2020</div>
+          <div>05/2020</div>
           <div class="news-text">
             Releasing PatchGuard, a provable defense against adversarial patches
             (led by <a href="https://xiangchong.xyz/">Chong Xiang</a>) (<a
@@ -272,7 +298,7 @@
           class="twitter-timeline"
           data-lang="en"
           data-width="350"
-          data-height="350"
+          data-height="380"
           data-dnt="true"
           data-chrome="transparent"
           href="https://twitter.com/VSehwag_?ref_src=twsrc%5Etfw"
@@ -345,7 +371,7 @@
     <div class="pubs-box key-pubs">
       <div class="pubs-data">
         <p class="title">
-          AdvBench: Tracking the Progress in Adversarial Robustness
+          RobustBench: Tracking the Progress in Adversarial Robustness
         </p>
         <p class="authors">
           Francesco Croce, Maksym Andriushchenko, <em>Vikash Sehwag</em>, <br />
@@ -362,7 +388,9 @@
           <span><a href="#" target="_blank">Pdf</a></span>
           /
           <span
-            ><a href="https://github.com/AdvBench/advbench" target="_blank"
+            ><a
+              href="https://github.com/RobustBench/robustbench"
+              target="_blank"
               >Code</a
             ></span
           >
@@ -374,7 +402,7 @@
         </p>
       </div>
       <div class="pubs-image">
-        <img src="./projects/advbench/logo.png" />
+        <img src="./projects/robustbench/logo.png" />
       </div>
     </div>
 
@@ -841,7 +869,7 @@
       </div>
     </div>
 
-    <div class="full-project-divider top-divider"><hr /></div>
+    <div class="full-project-divider"><hr /></div>
 
     <div class="news container" id="teaching">
       <p class="section-heading">Academic Services</p>
@@ -878,8 +906,8 @@
           <p class="bullet-small">&#10143;</p>
           <div class="pubs-data">
             One of the three core maintainers of Adversarial Robustness
-            Benchmark (<a href="https://advbench.github.io/" target="_blank"
-              >advbench.github.io</a
+            Benchmark (<a href="https://robustbench.github.io/" target="_blank"
+              >robustbench.github.io</a
             >)
           </div>
         </div>
@@ -912,7 +940,9 @@
   <footer>
     <small
       >&copy; 2020, Vikash Sehwag &emsp; &emsp; &emsp; Feel free to use the
-      <a>source code</a>, no strings attached.
+      <a href="https://github.com/VSehwag/vsehwag.github.io" , target="_blank"
+        >source code</a
+      >, no strings attached.
     </small>
   </footer>
 </body>

@@ -52,11 +52,16 @@ i {
   margin: 10px auto;
 }
 a {
-  color: black;
+  color: #008dcd;
 }
 
+nav a {
+  color: #008dcd;
+  font-variant: small-caps;
+  font-weight: bold;
+}
 a:hover {
-  color: #994301;
+  color: #E56717;
 }
 
 nav {
@@ -64,22 +69,16 @@ nav {
   top: 0;
   width: 100%;
   text-align: left;
-  padding: 0px 0px 0px 0px;
-  /* background-color:#008dcd; */
-  /* background-color: #7395ae; */
-  /* background: linear-gradient(#7395ae, white); */
+  padding: 5px 0px 0px 0px;
 }
 
 .fixed-nav-bar{
   transition:500ms ease;
-  /* background-image: linear-gradient(to bottom, #e1f6ff, whitesmoke); */
-  background:#e1e1e1;
+  background: whitesmoke;
+  margin: 0px 0px;
+  box-shadow: 0 5px 4px -6px black;
 }
 
-/* .fixed-nav-bar.scrolled {
-  background-color: black !important;
-  transition: background-color 200ms linear;
-} */
 
 nav ul {
   display: inline-block;
@@ -92,7 +91,7 @@ nav .nav-right {
 
 nav li {
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 0px 30px;
   text-decoration: none;
 }
@@ -101,8 +100,14 @@ nav a {
   text-decoration: none;
 }
 
+.navrule {
+  height: 3px;
+  border: 0;
+
+}
+
 .top-divider {
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .website-links {
@@ -141,7 +146,6 @@ nav a {
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  margin: 0px 0px;
 }
 
 .box {
@@ -248,7 +252,7 @@ h3 {
 .news-mini-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: 350px;
+  height: 380px;
 }
 
 /* .news-grid {
@@ -289,7 +293,11 @@ h3 {
   display: grid;
   grid-template-columns: 0.5fr 4fr 1.15fr;
   column-gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.work-in-progress {
+  margin-bottom: 20px;
 }
 
 .work-in-progress p {
@@ -310,7 +318,7 @@ h3 {
 
 .pubs-section #theme-text {
   font-weight: bold;
-  color: #d06105;
+  color: #008dcd;
   text-decoration: none;
 }
 
@@ -333,7 +341,7 @@ h3 {
   grid-template-columns: 4fr 1fr;
   column-gap: 10px;
   margin-top: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .pubs-data {
@@ -378,7 +386,8 @@ h3 {
 }
 
 .key-pubs {
-  background-color: #e9d8ca;
+  /* background-color: #e9d8ca; */
+  background-color: #dfdfdf;
 }
 
 footer {
