@@ -36,6 +36,12 @@ i {
   color: #008dcd;
 }
 
+
+a:hover, i:hover {
+  color: #E56717;
+}
+
+
 .full-project-divider hr {
   border: 0;
   height: 0;
@@ -51,18 +57,14 @@ i {
 .container {
   margin: 10px auto;
 }
-a {
-  color: #008dcd;
-}
+
 
 nav a {
   color: #008dcd;
   font-variant: small-caps;
   font-weight: bold;
 }
-a:hover {
-  color: #E56717;
-}
+
 
 nav {
   position: fixed;
@@ -93,10 +95,6 @@ nav li {
   display: inline-block;
   font-size: 1.6em;
   margin: 0px 30px;
-  text-decoration: none;
-}
-
-nav a {
   text-decoration: none;
 }
 
