@@ -388,6 +388,11 @@ h3 {
   background-color: #dfdfdf;
 }
 
+.publications .pubs-data em {
+  /* text-decoration: underline; */
+}
+
+
 footer {
   margin-bottom: 10px;
   text-align: center;
