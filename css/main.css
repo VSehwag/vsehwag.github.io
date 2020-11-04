@@ -397,3 +397,7 @@ footer {
   margin-bottom: 10px;
   text-align: center;
 }
+
+footer img {
+  height: 10px;
+}
