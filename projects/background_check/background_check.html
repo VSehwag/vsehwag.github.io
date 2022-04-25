@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Webpage</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: "HelveticaNeue-Light", Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    h1 {
+      line-height: 1.3em;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    /* CSS for major elements */
+    .toprule {
+      margin-top: 0px;
+      border: 0;
+      height: 8px;
+      background: #008dcd;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 0px auto;
+    }
+
+    .container h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 2em;
+    }
+
+    .container p {
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    .container p a {
+      margin: 20px;
+      text-decoration: none;
+    }
+
+    .flexcontainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .flexcontainer .author {
+      margin: 10px 20px;
+    }
+
+    .section-divider {
+      border: 0;
+      height: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      margin: 20px 0px;
+    }
+
+    .image-container {
+      width: 90%;
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 70%;
+    }
+
+    .image-container .caption {
+      font-style: oblique;
+      text-align: left;
+    }
+
+    .rel-work-list li {
+      margin: 10px, auto;
+      padding: 5px 10px;
+    }
+
+    pre,
+    code {
+      font-size: 0.9em;
+      border: 1px solid #e8e8e8;
+      border-radius: 3px;
+      background-color: #eef;
+    }
+
+    pre {
+      padding: 5px 10px;
+      overflow-x: auto;
+    }
+
+    .bottomrule {
+      margin-bottom: 0px;
+      border: 0;
+      height: 8px;
+      background: #008dcd;
+    }
+  </style>
+
+  <body>
+    <hr class="toprule" />
+
+    <div class="top container">
+      <h1>
+        Time for a Background Check! Uncovering the impact of Background
+        Features on Deep Neural Networks
+      </h1>
+      <div class="flexcontainer">
+        <div class="author">
+          Vikash Sehwag <br />
+          Princeton Universiery
+        </div>
+        <div class="author">
+          Rajvardhan Oak <br />
+          Microsoft Redmond
+        </div>
+        <div class="author">
+          Mung Chiang <br />
+          Princeton Universiery
+        </div>
+        <div class="author">
+          Prateek Mittal <br />
+          Princeton Universiery
+        </div>
+      </div>
+      <div class="flexcontainer">
+        <div class="author">
+          ICML workshop on Object-Oriented Learning, 2020
+        </div>
+      </div>
+      <p class="links">
+        <span><a href="https://arxiv.org/pdf/2006.14077.pdf">Pdf</a></span>
+        <span
+          ><a
+            href="https://docs.google.com/presentation/d/1dsFVA406PhxfHoBDkDJY2lzJRXGkClFpq0Tb4YTLg_o/edit?usp=sharing"
+            >Slides</a
+          ></span
+        >
+        <span
+          ><a href="https://oolworkshop.github.io/program/ool_26.html"
+            >Video</a
+          ></span
+        >
+        <span><a href="#bibtex">Bibtex</a></span>
+      </p>
+      <hr class="section-divider" />
+    </div>
+
+    <div class="content container">
+      <div class="data">
+        <div class="image-container">
+          <iframe
+            width="850"
+            height="420"
+            src="https://www.youtube.com/embed/3ewIaWs46bE"
+          >
+          </iframe>
+          <!-- <img src="documents/teaser.png" alt="project" /> -->
+        </div>
+        <h2>Overview</h2>
+        With increasing expressive power, deep neural networks have
+        significantly improved the state-of-the-art on image classification
+        datasets, such as ImageNet. In this paper, we investigate to what extent
+        the increasing performance of deep neural networks is impacted by
+        background features? In particular, we focus on \textit{background
+        invariance}, i.e., accuracy unaffected by switching background features
+        and \textit{background influence}, i.e., predictive power of background
+        features itself when foreground is masked. We perform experiments with
+        32 different neural networks ranging from small-size networks (such as
+        MobileNets) to large-scale networks trained with up to
+        <a href="https://arxiv.org/abs/1905.00546">one Billion images</a>. Our
+        investigations reveal that increasing expressive power of DNNs leads to
+        higher influence of background features, while simultaneously, increases
+        their ability to make the correct prediction when background features
+        are removed or replaced with a randomly selected texture-based
+        background.
+      </div>
+      <hr class="section-divider" />
+      <div class="content container">
+        <h2>Other related works</h2>
+        <div class="rel-work-list">
+          <ul>
+            <li>
+              <a href="https://arxiv.org/abs/2006.09994"
+                >Noise or Signal: The Role of Image Backgrounds in Object
+                Recognition</a
+              >
+              (Concurrent work)
+              <br />
+              Kai Xiao, Logan Engstrom, Andrew Ilyas, Aleksander Madry, Arixv
+              2020.
+            </li>
+            <li>
+              <a href="https://arxiv.org/abs/1807.04975"
+                >Recognition in Terra Incognita</a
+              >
+              <br />
+              Sara Beery, Grant van Horn, Pietro Perona; ECCV 2018.
+            </li>
+          </ul>
+        </div>
+        <hr class="section-divider" />
+      </div>
+      <div class="content container">
+        <h2 id="bibtex">Bibtex</h2>
+        <div class="data">
+          <pre>
+@article{sehwag2020backgroundCheck,
+  title={Time for a Background Check! Uncovering the impact of Background Features on Deep Neural Networks},
+  author={Sehwag, Vikash and Oak, Rajvardhan and Chiang, Mung and Mittal, Prateek},
+  journal={ICML workshop on Object-Oriented Learning (OOL)},
+  year={2020}
+}
+</pre
+          >
+        </div>
+      </div>
+    </div>
+    <hr class="bottomrule" />
+  </body>
+</head>

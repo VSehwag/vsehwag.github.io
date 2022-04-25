@@ -1,0 +1,199 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #34495e; /*--- global text bar ---*/
+  font-size: 16px;
+  font-family: "Nunito", "Helvetica Neue", "Helvetica", "Courier New";
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h5 {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  /* color: #008dcd; */
+  color: #288ce4;
+}
+
+a:hover,
+i:hover {
+  color: #e56717;
+  text-decoration: none;
+}
+
+.dummy {
+  color: rgb(238, 238, 238);
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background: none;
+  background-color: rgba(255, 255, 255, 0.999) !important;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+.nav-link,
+.navbar-brand {
+  color: inherit;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.navbar-brand .logo img {
+  height: 30;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  margin-right: 1em !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+/* .navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.999) !important;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  transition: background-color 200ms linear;
+} */
+
+header {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+header h1 {
+  font-weight: bold;
+}
+header p {
+  color: lightslategray;
+}
+
+.content h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.content .graphic {
+  text-align: center;
+}
+
+.graphic {
+  width: 90%;
+  margin: auto;
+  text-justify: inter-word;
+}
+.graphic img {
+  margin-bottom: 0px auto 30px auto;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.caption {
+  font-size: 0.95em;
+  color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.w_25 {
+  width: 25%;
+  margin: auto;
+}
+
+.w_50 {
+  width: 50%;
+  margin: auto;
+}
+
+.w_60 {
+  width: 60%;
+  margin: auto;
+}
+
+.w_70 {
+  width: 70%;
+  margin: auto;
+}
+
+.w_80 {
+  width: 80%;
+  margin: auto;
+}
+
+.w_90 {
+  width: 90%;
+  margin: auto;
+}
+
+.w_100 {
+  width: 100%;
+  margin: auto;
+}
+
+/* css gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.gallery .figure {
+  width: 32%;
+  text-align: center;
+}
+
+.gallery .figure img {
+  width: 100%;
+}
+
+.gallery .figure .caption {
+  font-size: 0.85em;
+}
+
+.gallery .figure p {
+  margin-bottom: 5px;
+}
+
+.figure {
+  text-align: center;
+  margin: auto;
+}
+
+.figure img {
+  width: 95%;
+}
+
+.gray_background {
+  background-color: rgb(236, 236, 236);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+pre {
+  font-size: 0.9em;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #eef;
+  padding: 5px 10px;
+  overflow-x: scroll;
+}
+
+/* Footer stuff */
+footer {
+  margin-top: 50px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 800px;
+  }
+}
