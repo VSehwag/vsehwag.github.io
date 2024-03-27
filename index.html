@@ -33,23 +33,24 @@
   <link rel="shortcut icon" href="./images/favicon.ico" />
   <script src="./css/main.js"></script>
   <link rel="stylesheet" href="./css/main.css" />
+  <base target="_blank">
 </head>
 
 <body>
   <nav class="navbar fixed-top navbar-expand-md">
     <div class="container">
-      <a class="navbar-brand" href="#"> Vikash Sehwag </a>
+      <a class="navbar-brand" target="_self" href="#"> Vikash Sehwag </a>
       <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="main-navigation">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#pubs">Publications</a>
+            <a class="nav-link" target="_self" href="#pubs">Publications</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#teaching">Teaching</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="./docs/vikash_sehwag_cv.pdf" target="_blank">Resume</a>
           </li>
@@ -87,24 +88,7 @@
           target="_blank">Qualcomm Innovation Fellowship</a> and the <a href="https://sites.google.com/view/advml/advml-rising-star-award">Rising Star Award</a> in adversarial machine learning. I previously organized the first
           <a href="https://vsehwag.github.io/SPML_seminar/" target="_blank">seminar series on Security & Privacy in
             Machine Learning (SPML)</a> at Princeton University.
-        <!-- 
-        Before
-        joining Princeton, I completed my undergraduate in E&ECE (with minor in
-        CS) from <a href="http://www.iitkgp.ac.in/">IIT Kharagpur</a>, India. I
-        earlier had an amazing summer internship experience at
-        <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/" target="_blank">Microsoft
-          Research</a>, Redmond. Before that, I spent a wonderful summer working with
-        <a href="https://www.bcs.tu-darmstadt.de/biocomm/people_1/professor/heinzkoeppl.en.jsp" target="_blank">Heinz
-          Koeppl</a>
-        at
-        <a href="https://www.tu-darmstadt.de/" target="_blank">TU Darmstadt</a>.
-        I have also been fortunate to receive
-        <a href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
-          target="_blank">Qualcomm Innovation Fellowship</a>
-        in 2019. -->
       </p>
-
-      <!-- <p>I am <strong>on the job market</strong> looking for research-scientist positions.</p> -->
       <ul>
         <li>
           <a href="https://scholar.google.com/citations?user=JAkeEG8AAAAJ&hl=en" target="_blank"><i
@@ -124,8 +108,26 @@
         </li>
       </ul>
     </div>
+    <div class="interests">
+      <div>
+        <strong>Research Interests.</strong> I believe AI will have a transformative impact on society; however, more efforts are needed for safer, trustworthy AI systems. My work focuses on uncovering and mitigating safety risks and building the next generation of trustworthy AI systems.
+        <ul>
+          <li>
+            <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">1</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">2</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">3</a>, <a href="https://arxiv.org/abs/2212.04486">4</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">5</a>, <a href="./projects/2024/jbb/pl.html">6</a>].
+          </li>
+          <li>
+            <strong>Responsible data synthesis.</strong> Concerned by the vast amount of generative content online, we've recently developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">7</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">8</a>].
+          </li>
+          <li>
+            <strong>Robust machine learning.</strong> We have conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">9</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">10</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">11</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">12</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">13</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">14</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">15</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">16</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">17</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">18</a>].
+          </li>
+          <li>
+            <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">19</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">20</a>], and most recently JailbreakBench [<a href="./projects/2024/jbb/pl.html">6</a>] to benchmark progress on jailbreaks against LLMs. We have also released a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">21</a>].
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
-
   <div class="project-divider">
     <hr />
   </div>
@@ -343,13 +345,6 @@
           <div class="news-text">Add news text here.</div>
         </div> -->
       </div>
-      <div class="news-twitter">
-        <a class="twitter-timeline" href="https://twitter.com/VSehwag_?ref_src=twsrc%5Etfw">Tweets by VSehwag_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <!-- <a class="twitter-timeline" data-lang="en" data-width="350" data-height="380" data-dnt="true"
-          data-chrome="transparent" href="https://twitter.com/VSehwag_?ref_src=twsrc%5Etfw">Tweets by VSehwag_</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-      </div>
-      
     </div>
   </div>
 

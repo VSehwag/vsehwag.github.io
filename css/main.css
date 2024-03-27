@@ -62,13 +62,33 @@ a:hover, i:hover {
 
 .container {
   margin: 10px auto;
+  font-weight: normal;
 }
 
 .navbar {
   background: none;
+  height: 65px;
   background-color: rgba(255, 255, 255, 0.999) !important;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
+
+.navbar .container a {
+  color: black;
+}
+
+.navbar .container a:hover {
+  color: #E56717;
+}
+
+.navbar .container i:hover {
+  color: #E56717;
+}
+
+
+a:hover, i:hover {
+  color: #E56717;
+}
+
 .nav-link,
 .navbar-brand {
   color: inherit;
@@ -80,7 +100,7 @@ a:hover, i:hover {
 }
 
 .navbar-brand {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: bold;
 }
 
@@ -99,7 +119,7 @@ a:hover, i:hover {
 }
 
 .top-divider {
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 .website-links {
@@ -153,11 +173,40 @@ h3 {
 .bio {
   display: grid;
   grid-column-gap: 0px;
-  grid-row-gap: 5px; /* reduces to spacing below grid for 1 row */
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 0px; /* reduces to spacing below grid for 1 row */
+  grid-template-columns: 1fr 2fr;
   padding: 10px 0px 0px 0px;
   /* make sure nav-bar doesn't cover it.  margin-top: 100px; */
 }
+
+.profile {
+  grid-column: 1 / 2; /* Occupies the first column in the first row */
+}
+
+.about-me {
+  grid-column: 2 / 3; /* Occupies the second column in the first row */
+  text-align: justify;
+}
+
+.interests {
+  grid-column: 1 / 3; /* Spans across both columns in the second row */
+  margin: 0 0 0 auto;
+  width: 95%;
+  padding: 0;
+  text-align: justify;
+  /* font-size: 0.95em; */
+}
+
+.interests ul{
+  margin-left: 0;
+  padding-left: 2%;
+  font-size: 0.9em;
+}
+
+.interests ul li {
+  padding-top: 1px;
+}
+
 
 .profile .name {
   margin-top: 10px;
@@ -177,7 +226,7 @@ h3 {
 }
 
 .about-me {
-  margin-top: 0px;
+  margin-top: 20px;
 }
 .about-me li {
   display: inline-block;
@@ -210,18 +259,6 @@ h3 {
   grid-row: 1/3;
   text-align: center;
 }
-.about-me {
-  grid-column: 2/4;
-  grid-row: 1;
-}
-.interests {
-  grid-column: 2;
-  grid-row: 2;
-}
-.experience {
-  grid-column: 3;
-  grid-row: 2;
-}
 
 .profile .headshot img {
   height: auto;
@@ -244,7 +281,7 @@ h3 {
 
 .news-mini-container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   height: 380px;
 }
 
@@ -260,6 +297,9 @@ h3 {
   text-align: left;
   overflow: scroll;
   margin-bottom: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex-container {
@@ -286,7 +326,7 @@ h3 {
   display: grid;
   grid-template-columns: 0.5fr 4fr 1.15fr;
   column-gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .work-in-progress {
