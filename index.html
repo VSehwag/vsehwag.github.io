@@ -48,11 +48,14 @@
           <li class="nav-item">
             <a class="nav-link" target="_self" href="#pubs">Publications</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="#code">Code</a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#teaching">Teaching</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="./docs/vikash_sehwag_cv.pdf" target="_blank">Resume</a>
+            <a class="nav-link" href="./docs/vikash_sehwag_cv.pdf" target="_blank">CV</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://vsehwag.github.io/blog">Blog</a>
@@ -65,77 +68,73 @@
   <div class="full-project-divider top-divider"></div>
 
   <!-- Biography: first section of webpage -->
-  <div class="bio container" id="aboutme">
-    <div class="box profile">
-      <div class="headshot">
-        <img src="./images/headshot.jpg" alt="Udari Madhushani" />
+  <div class="container" id="aboutme">
+    <div class="bio">
+      <div class="box profile">
+        <div class="headshot">
+          <img src="./images/headshot.jpg" alt="Udari Madhushani" />
+        </div>
+        <h2 class="name section-heading"></h2>
+        <h3 class="affil">Research Scientist, Sony AI</h3>
+        <h3 class="email">sehwag.vikash@gmail.com</h3>
       </div>
-      <h2 class="name section-heading"></h2>
-      <h3 class="affil">Research Scientist, Sony AI</h3>
-      <h3 class="email">sehwag.vikash@gmail.com</h3>
-    </div>
-    <div class="box about-me">
-      <p>
-        I am a research scientist at <a href="https://ai.sony/" target="_blank">Sony AI</a> where I lead efforts on enhancing safety and utility of large-scale generative models.
-      </p>
-      <p>
-        I received my PhD from <a href="https://www.princeton.edu/">Princeton University</a> where I was advised by
-        Prof. Prateek Mittal and Prof. Mung Chiang. I previously interned at <a href="https://ai.facebook.com/" target="_blank">Meta AI</a>  (AI Red Team) and
-        <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/" target="_blank">Microsoft
-          Research</a>. I
-        have been fortunate to receive
-        <a href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
-          target="_blank">Qualcomm Innovation Fellowship</a> and the <a href="https://sites.google.com/view/advml/advml-rising-star-award">Rising Star Award</a> in adversarial machine learning. I previously organized the first
-          <a href="https://vsehwag.github.io/SPML_seminar/" target="_blank">seminar series on Security & Privacy in
-            Machine Learning (SPML)</a> at Princeton University.
-      </p>
-      <ul>
-        <li>
-          <a href="https://scholar.google.com/citations?user=JAkeEG8AAAAJ&hl=en" target="_blank"><i
-              class="ai ai-google-scholar"></i></a>
-        </li>
-        <li>
-          <a href="https://dblp.org/pid/187/5613.html" target="_blank"><i class="ai ai-dblp"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/vikash-sehwag/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/VSehwag_" target="_blank"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/VSehwag" target="_blank"><i class="fab fa-github"></i></a>
-        </li>
-      </ul>
-    </div>
-    <div class="interests">
-      <div>
-        <strong>Research Interests.</strong> I believe AI will have a transformative impact on society; however, more efforts are needed for safer, trustworthy AI systems. My work focuses on uncovering and mitigating safety risks and building the next generation of trustworthy AI systems.
+      <div class="box about-me">
+        <p>
+          I am a research scientist at <a href="https://ai.sony/" target="_blank">Sony AI</a> where I lead efforts on enhancing safety and utility of large-scale generative models.
+        </p>
+        <p>
+          I received my PhD from <a href="https://www.princeton.edu/">Princeton University</a> where I was advised by
+          Prof. Prateek Mittal and Prof. Mung Chiang. I previously interned at <a href="https://ai.facebook.com/" target="_blank">Meta AI</a>  (AI Red Team) and
+          <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/" target="_blank">Microsoft
+            Research</a>. I
+          have been fortunate to receive
+          <a href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
+            target="_blank">Qualcomm Innovation Fellowship</a> and the <a href="https://sites.google.com/view/advml/advml-rising-star-award">Rising Star Award</a> in adversarial machine learning. I previously organized the first
+            <a href="https://vsehwag.github.io/SPML_seminar/" target="_blank">seminar series on Security & Privacy in
+              Machine Learning (SPML)</a> at Princeton University.
+        </p>
         <ul>
           <li>
-            <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">1</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">2</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">3</a>, <a href="https://arxiv.org/abs/2212.04486">4</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">5</a>, <a href="./projects/2024/jbb/pl.html">6</a>].
+            <a href="https://scholar.google.com/citations?user=JAkeEG8AAAAJ&hl=en" target="_blank"><i
+                class="ai ai-google-scholar"></i></a>
           </li>
           <li>
-            <strong>Responsible data synthesis.</strong> Concerned by the vast amount of generative content online, we've recently developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">7</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">8</a>].
+            <a href="https://dblp.org/pid/187/5613.html" target="_blank"><i class="ai ai-dblp"></i></a>
           </li>
           <li>
-            <strong>Robust machine learning.</strong> We have conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">9</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">10</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">11</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">12</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">13</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">14</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">15</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">16</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">17</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">18</a>].
+            <a href="https://www.linkedin.com/in/vikash-sehwag/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </li>
           <li>
-            <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">19</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">20</a>], and most recently JailbreakBench [<a href="./projects/2024/jbb/pl.html">6</a>] to benchmark progress on jailbreaks against LLMs. We have also released a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">21</a>].
+            <a href="https://twitter.com/VSehwag_" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/VSehwag" target="_blank"><i class="fab fa-github"></i></a>
           </li>
         </ul>
       </div>
+      <div class="interests">
+        <div>
+          <strong>Research Interests.</strong> Uncovering and mitigating safety risks in the development of next-generation of trustworthy AI systems.
+          <ul>
+            <li>
+              <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">1</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">2</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">3</a>, <a href="https://arxiv.org/abs/2212.04486">4</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">5</a>, <a href="./projects/2024/jbb/pl.html">6</a>].
+            </li>
+            <li>
+              <strong>Responsible data synthesis.</strong> Concerned by the vast amount of generative content online, we've recently developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">7</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">8</a>].
+            </li>
+            <li>
+              <strong>Robust machine learning.</strong> We have conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">9</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">10</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">11</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">12</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">13</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">14</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">15</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">16</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">17</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">18</a>].
+            </li>
+            <li>
+              <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">19</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">20</a>], and most recently JailbreakBench [<a href="./projects/2024/jbb/pl.html">6</a>] to benchmark progress on jailbreaks against LLMs. We have also written a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">21</a>].
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="project-divider">
-    <hr />
-  </div>
-
-  <!-- REPLACE THE TWEET SECTION WITH UPCOMING TALKS. -->
-
   <!-- News: Second section of the webpage-->
-  <div class="news container">
+  <!-- <div class="news container">
     <div class="news-mini-container">
       <div class="news-grid">
         <p class="section-heading">News</p>
@@ -307,16 +306,6 @@
               href="https://colab.research.google.com/drive/1Pyn8zgZUlBKz18kSL0vO0ojBE3AnVpl6?usp=sharing">Colab-notebook</a>).
           </div>
         </div>
-        <!-- <div class="flex-container">
-          <div>11/2019</div>
-          <div class="news-text">
-            Will present our paper on robust open-world machine learning at
-            <a href="https://aisec.cc/">AISec 2019</a> (<a
-              href="https://docs.google.com/presentation/d/12NQfyzcztr00gjicu0-BzROV178_fSJNTXMraoCspvw/edit?usp=sharing"
-              >Slides</a
-            >).
-          </div>
-        </div> -->
         <div class="flex-container">
           <div>09/2019</div>
           <div class="news-text">
@@ -340,23 +329,119 @@
               Innovation Fellowship 2019</a>.
           </div>
         </div>
-        <!-- <div class="flex-container">
-          <div>08/2020</div>
-          <div class="news-text">Add news text here.</div>
-        </div> -->
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="project-divider">
+  <div class="full-project-divider">
     <hr />
   </div>
-
+  
   <!-- Publications: The major section in the middle of website-->
   <div class="publications container" id="pubs">
-    <p class="section-heading">Selected Publications</p>
-    <!-- Create a copy of pubs-box for a new entry and pubs-section for a group of entries-->
+    <div class="publications container" id="pubs">
+      <p class="section-heading">Publications</p>
+      <!-- Create a copy of pubs-box for a new entry and pubs-section for a group of entries-->
+      <h5>2024</h5>
+
+      <div class="pubs-box key-pubs">
+        <div class="pubs-image">
+          <img src="./projects/trace/demo.png" />
+        </div>
+        <div class="pubs-data">
+          <p class="title">
+            How to Trace Latent Generative Model Generated Images without Artificial Watermark?
+          </p>
+          <p class="authors">
+            Zhenting Wang, <em>Vikash Sehwag</em>, Chen Chen, Lingjuan Lyu, Dimitris N. Metaxas, Shiqing Ma
+          </p>
+          <p>
+            <span class="venue">ICML 2024 (to appear)</span>
+            <!-- <span class="links">
+              <a href="https://openreview.net/pdf?id=TwZ2sY6eJj" target="_blank">pdf</a> | 
+              <a href="https://github.com/inspire-group/DP-RandP" target="_blank">code</a>
+            </span> -->
+          </p>
+          <p class="summary">
+            Using signature from the latent autoencoders, we propose an approach to trace synthetic images back to the source latent generative model.
+          </p>
+        </div>
+      </div>
+
+      <div class="pubs-box">
+        <div class="pubs-image">
+          <img src="./projects/linearsc/demo.png" />
+        </div>
+        <div class="pubs-data">
+          <p class="title">
+            A New Linear Scaling Rule for Private Adaptive Hyperparameter Optimization
+          </p>
+          <p class="authors">
+            Ashwinee Panda, Xinyu Tang, <em>Vikash Sehwag</em>, Saeed Mahloujifar, Prateek Mittal
+          </p>
+          <p>
+            <span class="venue">ICML 2024 (to appear)</span>
+          </p>
+          <p class="summary">
+            We consider the cost of hyperparameter optimization in differentially private learning and propose a strategy that prvoides linear scaling of hyperparameters, thus reducing the privacy cost and simultaneously achieving state-of-the-art performance across 22 benchmark tasks in CV and NLP. 
+          </p>
+        </div>
+      </div>
+
     <div class="pubs-box key-pubs">
+      <div class="pubs-image">
+        <img src="./projects/jbb/demo.png" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models
+        </p>
+        <p class="authors">
+          Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, <em>Vikash Sehwag</em>, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong
+        </p>
+        <p>
+          <span class="venue">Arxiv 2024 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2404.01318" target="_blank">pdf</a> | 
+            <a href="https://jailbreakbench.github.io/" target="_blank">webpage</a> |
+            <a href="https://github.com/JailbreakBench/jailbreakbench" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          A centralized benchmark for 1) repository of jailbreaking attacks and artifacts, 2) standardized evaluation framework, and 3) up-to-date leaderboard. 
+        </p>
+      </div>
+    </div>
+    
+    <h4>2023</h4>
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/dprandp/demo.png" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          Differentially Private Image Classification by Learning Priors from Random Processes
+        </p>
+        <p class="authors">
+          Xinyu Tang, Ashwinee Panda, <em>Vikash Sehwag</em>, Prateek Mittal
+        </p>
+        <p>
+          <span class="venue">NeurIPS 2023 (<span class="redtext">spotlight</span>) - </span>
+          <span class="links">
+            <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/7058bc192a37f5e5a57398887b05f6f6-Paper-Conference.pdf" target="_blank">pdf</a> | 
+            <a href="https://github.com/inspire-group/DP-RandP" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          We show that pre-training on data from random processes enables better performance during differentially private finetuning, while simultaneously avoiding privacy leakage associated with real pretraining images. 
+        </p>
+      </div>
+    </div>
+
+    <div class="pubs-box key-pubs">
+      <div class="pubs-image">
+        <img src="./projects/memorize/demo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
           Extracting Training Data from Diffusion Models
@@ -365,24 +450,70 @@
           Nicholas Carlini, Jamie Hayes, Milad Nasr, Matthew Jagielski, <em>Vikash Sehwag</em>, Florian Tramèr, Borja
           Balle, Daphne Ippolito, Eric Wallace
         </p>
-        <p class="venue">Arxiv 2023</p>
-        <p class="links">
-          <span><a href="https://arxiv.org/abs/2301.13188" target="_blank">pdf</a></span> / <span><a
-              href="https://twitter.com/Eric_Wallace_/status/1620449934863642624?s=20"
-              target="_blank">twitter</a></span>
+        <p>
+        <span class="venue">USENIX Security Symposium, 2023 - </span>
+        <span class="links"><a href="https://arxiv.org/abs/2301.13188" target="_blank">pdf</a> | <a href="https://www.youtube.com/watch?v=KyST9QH7VfE&ab_channel=USENIX">video</a> | <a href="#" onclick="return false;">News</a> (<a href="https://www.technologyreview.com/2023/02/03/1067786/ai-models-spit-out-photos-of-real-people-and-copyrighted-images/">1</a>, <a href="https://arstechnica.com/information-technology/2023/02/researchers-extract-training-images-from-stable-diffusion-but-its-difficult/">2</a>, <a href="https://www.vice.com/en/article/m7gznn/ai-spits-out-exact-copies-of-training-images-real-people-logos-researchers-find">3</a>, <a href="https://gizmodo.com/ai-art-generators-ai-copyright-stable-diffusion-1850060656#:~:text=Researchers%20in%20both%20industry%20and,to%20simply%20reproduce%20an%20image.">4</a>)</span>
         </p>
-
         <p class="summary">
-          We show that modern diffusion models, such as Stable-diffusion and ImageN, memorize certain training images,
-          which can be extracted by an adversary during sampling.
+          This was one of the first works to demonstrate significant memorization of real-world images in web-scale text-to-image generative models (Stable Diffusion, ImageN). Our findings further motivated web-scale data deduplication in training dataset of generative models.
         </p>
-      </div>
-      <div class="pubs-image">
-        <img src="./projects/memorize/demo.png" />
       </div>
     </div>
 
     <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/tta/demo.png" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          Uncovering Adversarial Risks of Test-Time Adaptation
+        </p>
+        <p class="authors">
+          Tong Wu, Feiran Jia, Xiangyu Qi, Jiachen T. Wang, <em>Vikash Sehwag</em>, Saeed Mahloujifar, Prateek Mittal
+        </p>
+        <p>
+          <span class="venue">ICML 2023 - </span>
+          <span class="links">
+            <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf" target="_blank">pdf</a> | 
+            <a href="https://tongwu2020.github.io/tongwu/tta_risk/index.html" target="_blank">webpage</a> |
+            <a href="https://github.com/inspire-group/tta_risk" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          We show that test-time adaptation, a technique that aims to improve performance at test time, also increases exposure to novel security risks.
+        </p>
+      </div>
+    </div>
+
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/multirobust/demo.png" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          MultiRobustBench: Benchmarking Robustness Against Multiple Attacks
+        </p>
+        <p class="authors">
+          Sihui Dai, Saeed Mahloujifar, Chong Xiang, <em>Vikash Sehwag</em>, Pin-Yu Chen, Prateek Mittal
+        </p>
+        <p>
+          <span class="venue">ICML 2023 - </span>
+          <span class="links">
+            <a href="hhttps://proceedings.mlr.press/v202/dai23c/dai23c.pdf" target="_blank">pdf</a> | 
+            <a href="https://multirobustbench.github.io/" target="_blank">webpage</a> |
+            <a href="https://github.com/multirobustbench/multirobustbench" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          Going beyond single-attack robustness (RobustBench), we develop a standardized benchmark for multi-attack threat vectors.
+        </p>
+      </div>
+    </div>
+
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/lightVits/demo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
           A Light Recipe to Train Robust Vision Transformers
@@ -390,50 +521,51 @@
         <p class="authors">
           Edoardo Debenedetti, <em>Vikash Sehwag</em>, Prateek Mittal
         </p>
-        <p class="venue">SaTML 2023</p>
-        <p class="links">
-          <span><a href="https://arxiv.org/abs/2209.07399" target="_blank">pdf</a></span> / <span><a
-              href="https://twitter.com/edoardo_debe/status/1575489807400083457?s=20" target="_blank">twitter</a></span>
+        <p>
+          <span class="venue">SaTML 2023 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2209.07399" target="_blank">pdf</a> | 
+            <a href="https://www.youtube.com/watch?v=2UY85XlJcHY&ab_channel=NicolasPapernot" target="_blank">video</a> | 
+            <a href="https://edoardo.science/publication/light_recipe/slides.pdf" target="_blank">slides</a> | 
+            <a href="https://github.com/dedeswim/vits-robustness-torch" target="_blank">code</a>
+          </span>
         </p>
-
         <p class="summary">
-          Contrary to the conventional wisdom of using heavy data augmentation in ViTs, we show that a lighter data
-          augmentation
-          (along with other bag-of-tricks) achieves state-of-the-art performance with ViTs adversarial training.
+          Contrary to the conventional wisdom of using heavy data augmentation in ViTs, we showed that a lighter data
+          augmentation (along with other bag-of-tricks) achieves state-of-the-art performance with ViTs adversarial training.
         </p>
-      </div>
-      <div class="pubs-image">
-        <img src="./projects/lightVits/demo.png" />
       </div>
     </div>
 
-
+    <h4>2022</h4>
     <div class="pubs-box key-pubs">
+      <div class="pubs-image">
+        <img src="./projects/ab_sampling/demo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
-          Generating High Fidelity Data from Low-density Regions using Diffusion
-          Models
+          Generating High Fidelity Data from Low-density Regions using Diffusion Models
         </p>
         <p class="authors">
           <em>Vikash Sehwag</em>, Caner Hazirbas, Albert Gordo, Firat Ozgenel,
           Cristian Canton Ferrer
         </p>
-        <p class="venue">CVPR 2022</p>
-        <p class="links">
-          <span><a href="https://arxiv.org/abs/2203.17260" target="_blank">pdf</a></span>
+        <p>
+          <span class="venue">CVPR 2022 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2203.17260" target="_blank">pdf</a>
+          </span>
         </p>
-
         <p class="summary">
-          We improve the sampling process of diffusion models to generate high
-          fidelity hard, i.e., from low-density regions, synthetic images.
+          Our work showed strong generalization of diffusion models in the tail of the data distribution and developed adaptive sampling techniques to generate high-fidelity samples from the tail of the data distribution.
         </p>
-      </div>
-      <div class="pubs-image">
-        <img src="./projects/ab_sampling/samples.png" />
       </div>
     </div>
 
     <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/cka/demo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
           Understanding Robust Learning through the Lens of Representation Similarities
@@ -441,89 +573,80 @@
         <p class="authors">
           Christian Cianfarani, Arjun Nitin Bhagoji, <em>Vikash Sehwag</em>, Ben Y. Zhao, Prateek Mittal, Haitao Zheng
         </p>
-        <p class="venue">NeurIPS 2022</p>
-        <p class="links">
-          <span><a href="https://arxiv.org/abs/2206.09868" target="_blank">pdf</a></span>
+        <p>
+          <span class="venue">NeurIPS 2022 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2206.09868" target="_blank">pdf</a> | 
+            <a href="https://slideslive.com/embed/presentation/38992183" target="_blank">video</a> | 
+            <a href="https://slideslive.com/embed/presentation/38992183" target="_blank">slides</a> | 
+            <a href="https://github.com/inspire-group/robust_representation_similarity" target="_blank">code</a>
+          </span>
         </p>
-
         <p class="summary">
           Using representation similarity metrics, such as CKA, we demonstrate multiple interesting characteristics of
           adversarially robust networks compared to non-robust networks.
         </p>
       </div>
-      <div class="pubs-image">
-        <img src="./projects/cka/demo.png" />
-      </div>
     </div>
 
     <div class="pubs-box key-pubs">
+      <div class="pubs-image">
+        <img src="./projects/proxy/demo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
-          Robust Learning Meets Generative Models: Can Proxy Distributions
-          Improve Adversarial Robustness?
+          Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?
         </p>
         <p class="authors">
           <em>Vikash Sehwag</em>, Saeed Mahloujifar, Tinashe Handina, Sihui Dai,
           Chong Xiang, Mung Chiang, Prateek Mittal
         </p>
-        <p class="venue">ICLR 2022</p>
-        <p class="links">
-          <span><a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html"
-              target="_blank">Blog</a></span>
-          /
-          <span><a href="https://arxiv.org/abs/2104.09425" target="_blank">Pdf</a></span>
-          /
-          <span><a href="https://iclr.cc/virtual/2022/poster/6374" target="_blank">Video</a></span>
-          /
-          <span><a href="https://iclr.cc/virtual/2022/poster/6374" target="_blank">Slides</a></span>
+        <p>
+          <span class="venue">ICLR 2022 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2104.09425" target="_blank">pdf</a> | 
+            <a href="https://iclr.cc/virtual/2022/poster/6374" target="_blank">video</a> | 
+            <a href="https://iclr.cc/virtual/2022/poster/6374" target="_blank">slides</a> | 
+            <a href="https://github.com/inspire-group/proxy-distributions" target="_blank">code</a> |
+            <a href="https://vsehwag.github.io/blog/2022/4/synthetic_data_in_ml.html" target="_blank">blog</a>
+          </span>
         </p>
-
         <p class="summary">
-          We show that synthetic data from diffusion model provides a termendous
-          boost in generalization performance of robust training.
+          We showed that synthetic data from diffusion model provides a termendous boost in the generalization performance of adversarial training.
         </p>
-      </div>
-      <div class="pubs-image">
-        <img style="padding-left: 8px; padding-right: 3px" src="./projects/proxy/generative_learning_2.png" />
       </div>
     </div>
 
+    <h4>2021</h4>
     <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/ce_bounds/demo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
-          Lower Bounds on Cross-Entropy Loss in the Presence of Test-time
-          Adversaries
+          Lower Bounds on Cross-Entropy Loss in the Presence of Test-time Adversaries
         </p>
-        <p class="authors">
-          Arjun Nitin Bhagoji, Daniel Cullina, <em>Vikash Sehwag</em>, Prateek
-          Mittal
+        <p class="authors"> Arjun Nitin Bhagoji, Daniel Cullina, <em>Vikash Sehwag</em>, Prateek Mittal </p>
+        <p>
+          <span class="venue">ICML 2021 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2203.17260" target="_blank">pdf</a> | 
+            <a href="https://slideslive.com/38959167/lower-bounds-on-crossentropy-loss-in-the-presence-of-testtime-adversaries?ref=speaker-18989" target="_blank">video</a> | 
+            <a href="https://slideslive.com/38959167/lower-bounds-on-crossentropy-loss-in-the-presence-of-testtime-adversaries?ref=speaker-18989" target="_blank">slides</a> | 
+            <a href="https://arjunbhagoji.github.io/files/poster_icml_2021.pdf" target="_blank">poster</a> |
+            <a href="https://github.com/arjunbhagoji/log-loss-lower-bounds" target="_blank">code</a>
+          </span>
         </p>
-        <p class="venue">ICML 2021</p>
-        <p class="links">
-          <span><a href="https://arxiv.org/abs/2203.17260" target="_blank">Pdf</a></span>
-          /
-          <span><a
-              href="https://slideslive.com/38959167/lower-bounds-on-crossentropy-loss-in-the-presence-of-testtime-adversaries?ref=speaker-18989"
-              target="_blank">Video</a></span>
-          /
-          <span><a
-              href="https://slideslive.com/38959167/lower-bounds-on-crossentropy-loss-in-the-presence-of-testtime-adversaries?ref=speaker-18989"
-              target="_blank">Slides</a></span>
-          /
-          <span><a href="https://arjunbhagoji.github.io/files/poster_icml_2021.pdf" target="_blank">Poster</a></span>
-        </p>
-
         <p class="summary">
-          We provide lower-bounds on cross-entropy loss in persence of
-          adversarial attacks on basic vision datasets.
+          We provide lower-bounds on cross-entropy loss in the persence of adversarial attacks for common small-scale computer vision datasets.
         </p>
-      </div>
-      <div class="pubs-image">
-        <img src="./projects/ce_bounds/bounds_icml21.png" />
       </div>
     </div>
 
     <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/ssd/demo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
           SSD: A Unified Framework for Self-Supervised outlier detection
@@ -531,237 +654,141 @@
         <p class="authors">
           <em>Vikash Sehwag</em>, Mung Chiang, Prateek Mittal
         </p>
-        <p class="venue">
-          ICLR 2021, Short version accepted at
-          <a href="https://sslneuips20.github.io/" target="_blank">NeurIPS SSL</a>
-          workshop, 2020
-        </p>
-        <p class="links">
-          <span><a href="./projects/soon.html" target="_blank">Project-page</a></span>
-          /
-          <span><a href="https://drive.google.com/file/d/1GVb7UtVZKDvb6sHZ9dSlycnzEDnL7E1r/view?usp=sharing"
-              target="_blank">Pdf</a></span>
+        <p>
+          <span class="venue">ICLR 2021, NeurIPS SSL workshop 2020 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2103.12051" target="_blank">pdf</a> | 
+            <a href="https://slideslive.com/38954089/ssd-a-unified-framework-for-selfsupervised-outlier-detection?ref=search" target="_blank">video</a> | 
+            <a href="https://slideslive.com/38954089/ssd-a-unified-framework-for-selfsupervised-outlier-detection?ref=search" target="_blank">slides</a> | 
+            <a href="https://github.com/inspire-group/SSD" target="_blank">code</a>
+          </span>
         </p>
 
         <p class="summary">
           Using <em>only</em> unlabeled data, we develop a highly succesful
-          framework to detect outliers or out-of-distribution samples.
+          framework to detect outliers/out-of-distribution samples.
         </p>
       </div>
-      <div class="pubs-image">
-        <img src="./projects/ssd/overview.png" />
-      </div>
     </div>
 
-    <div class="pub-divider">
+    <!-- <div class="pub-divider">
       <hr />
-    </div>
+    </div> -->
 
     <div class="pubs-box key-pubs">
+      <div class="pubs-image">
+        <img src="./projects/robustbench/logo.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
           RobustBench: A Standardized Adversarial Robustness Benchmark
         </p>
         <p class="authors">
-          Francesco Croce, Maksym Andriushchenko, <em>Vikash Sehwag</em>, <br />
-          Nicolas Flammarion, Mung Chiang, Prateek Mittal, Matthias Hein
+          Francesco Croce, Maksym Andriushchenko, <em>Vikash Sehwag</em>, Nicolas Flammarion, Mung Chiang, Prateek Mittal, Matthias Hein
         </p>
-        <p class="venue">NeurIPS, 2021</p>
-        <p class="links">
-          <span><a href="https://robustbench.github.io/" target="_blank">Project-page</a></span>
-          /
-          <span><a href="https://arxiv.org/abs/2010.09670" target="_blank">Pdf</a></span>
-          /
-          <span><a href="https://github.com/RobustBench/robustbench" target="_blank">Code</a></span>
+        <p>
+          <span class="venue">NeurIPS 2021 - </span>
+          <span class="links">
+            <a href="https://robustbench.github.io/" target="_blank">leaderboard</a> | 
+            <a href="https://arxiv.org/abs/2010.09670" target="_blank">pdf</a> | 
+            <a href="https://github.com/RobustBench/robustbench" target="_blank">code</a>
+          </span>
         </p>
-
         <p class="summary">
-          We provide a leaderboard to track progress + a library for unified
-          access to SOTA defenses against adversarial examples.
+          We develop a standardized benchmark to track progress on adversarial robustness in deep learning. Our benchmark has been highly insightful and been visited by more than 40K users.
         </p>
       </div>
-      <div class="pubs-image">
-        <img src="./projects/robustbench/logo.png" />
-      </div>
-    </div>
-
-    <div class="pub-divider">
-      <hr />
     </div>
 
     <div class="pubs-box">
-      <div class="pubs-data">
-        <p class="title">
-          Time for a Background Check! Uncovering the impact of Background
-          Features on Deep Neural Networks
-        </p>
-        <p class="authors">
-          <em>Vikash Sehwag</em>, Rajvardhan Oak, Mung Chiang, Prateek Mittal
-        </p>
-        <p class="venue">ICML workshop on Object-Oriented Learning, 2020</p>
-        <p class="links">
-          <span><a href="./projects/background_check/background_check.html" target="_blank">Project-page</a></span>
-          /
-          <span><a href="https://arxiv.org/pdf/2006.14077.pdf" target="_blank">Pdf</a></span>
-          /
-          <span><a href="./projects/background_check/background_check.html#bibtex" target="_blank">Bibtex</a></span>
-          /
-          <span><a
-              href="https://docs.google.com/presentation/d/1dsFVA406PhxfHoBDkDJY2lzJRXGkClFpq0Tb4YTLg_o/edit?usp=sharing"
-              target="_blank">Slides</a></span>
-          /
-          <span><a href="https://oolworkshop.github.io/program/ool_26.html" target="_blank">Video</a></span>
-        </p>
-
-        <p class="summary">
-          We investigate background invariance and influence over 32 deep neural
-          networks on ImageNet dataset.
-        </p>
-      </div>
-      <div class="pubs-image">
-        <img src="./projects/background_check/invariance.png" />
-      </div>
-    </div>
-
-    <div class="pub-divider">
-      <hr />
-    </div>
-
-    <div class="pubs-box">
-      <div class="pubs-data">
-        <p class="title">On Separability of Self-Supervised Representations</p>
-        <p class="authors">
-          <em>Vikash Sehwag</em>, Mung Chiang, Prateek Mittal
-        </p>
-        <p class="venue">
-          ICML workshop on Uncertainty & Robustness in Deep Learning, 2020
-        </p>
-        <p class="links">
-          <span><a href="http://www.gatsby.ucl.ac.uk/~balaji/udl2020/accepted-papers/UDL2020-paper-131.pdf"
-              target="_blank">Pdf</a></span>
-          /
-          <span><a href="./projects/ssl_margin/bibtex.html" target="_blank">Bibtex</a></span>
-          /
-          <span><a
-              href="https://docs.google.com/presentation/d/119v5iI1FxLwEEAav6Yu5kvvF4sx79iSLgJom-c3grOI/edit?usp=sharing"
-              target="_blank">Slides</a></span>
-        </p>
-
-        <p class="summary">
-          We compare the representations learned by several self-supervised
-          methods with supervised networks.
-        </p>
-      </div>
-      <div class="pubs-image">
-        <img src="./projects/ssl_margin/ssl_margin.png" />
-      </div>
-    </div>
-
-    <div class="pubs-box key-pubs">
-      <div class="pubs-data">
-        <p class="title">HYDRA: Pruning Adversarially Robust Neural Networks</p>
-        <p class="authors">
-          <em>Vikash Sehwag</em>, Shiqi Wang, Prateek Mittal, Suman Jana
-        </p>
-        <p class="venue">
-          NeurIPS 2020,
-          <a href="" target="_blank">Short paper</a> in ICLR workshop on
-          Trustworthy Machine Learning, 2020
-        </p>
-        <p class="links">
-          <span><a href="https://vsehwag.github.io/hydra" target="_blank">Project-page</a></span>
-          /
-          <span><a href="https://arxiv.org/abs/2002.10509" target="_blank">Pdf</a></span>
-          /
-          <span><a href="./projects/hydra/hydra.html#bibtex" target="_blank">Bibtex</a></span>
-          /
-          <span><a href="https://github.com/inspire-group/compactness-robustness" target="_blank">Code</a></span>
-          /
-          <span><a
-              href="https://docs.google.com/presentation/d/1yLSnvUR5MFhv-Dp2yuQEF1QuFNffTSomUGuiZsZJmbY/edit?usp=sharing"
-              target="_blank">Slides</a></span>
-          /
-          <span><a
-              href="https://slideslive.com/38926541/on-pruning-adversarially-robust-neural-networks?ref=account-folder-46630-folders"
-              target="_blank">Video</a></span>
-        </p>
-
-        <p class="summary">
-          We achieve state-of-the-art accuracy and robustness for pruned
-          networks (pruning up to 100x).
-        </p>
-      </div>
-      <div class="pubs-image"><img src="./projects/hydra/hydra.png" /></div>
-    </div>
-
-    <div class="pub-divider">
-      <hr />
-    </div>
-
-    <div class="pubs-box">
-      <div class="pubs-data">
-        <p class="title">
-          PatchGuard: Provable Defense against Adversarial Patches Using Masks
-          on Small Receptive Fields
-        </p>
-        <p class="authors">
-          Chong Xiang, Arjun Nitin Bhagoji, <em>Vikash Sehwag</em>, Prateek
-          Mittal
-        </p>
-        <p class="venue">Arxiv, 2020</p>
-        <p class="links">
-          <span><a href="./projects/soon.html" target="_blank">Project-page</a></span>
-          /
-          <span><a href="https://arxiv.org/pdf/2005.10884.pdf" target="_blank">Pdf</a></span>
-          /
-          <span><a href="./projects/patchguard/bibtex.html" target="_blank">Bibtex</a></span>
-        </p>
-
-        <p class="summary">
-          A general defense framework to acheive provable robustness against
-          adversrial patches.
-        </p>
-      </div>
       <div class="pubs-image">
         <img src="./projects/patchguard/demo.png" />
       </div>
+      <div class="pubs-data">
+        <p class="title">
+          PatchGuard: Provable Defense against Adversarial Patches Using Masks on Small Receptive Fields
+        </p>
+        <p class="authors">
+          Chong Xiang, Arjun Nitin Bhagoji, <em>Vikash Sehwag</em>, Prateek Mittal
+        </p>
+        <p>
+          <span class="venue">USENIX Security Symposium 2021 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/pdf/2005.10884.pdf" target="_blank">pdf</a> | 
+            <a
+            href="https://www.youtube.com/watch?v=t20yGBIdZ20&ab_channel=USENIX"
+            target="_blank">video</a> |
+            <a href="https://github.com/inspire-group/PatchGuard" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          A general defense framework to acheive provable robustness against adversrial patches.
+        </p>
+      </div>
     </div>
 
-    <div class="pub-divider">
+    <!-- <div class="pub-divider">
       <hr />
+    </div> -->
+
+    <h4>2020</h4>
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/hydra/hydra.png" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          HYDRA: Pruning Adversarially Robust Neural Networks
+        </p>
+        <p class="authors">
+          <em>Vikash Sehwag</em>, Shiqi Wang, Prateek Mittal, Suman Jana
+        </p>
+        <p>
+          <span class="venue">NeurIPS 2020 - </span>
+          <span class="links">
+            <a href="https://vsehwag.github.io/hydra" target="_blank">webpage</a> | 
+            <a href="https://arxiv.org/abs/2002.10509" target="_blank">pdf</a> | 
+            <a
+            href="https://slideslive.com/38926541/on-pruning-adversarially-robust-neural-networks?ref=account-folder-46630-folders"
+            target="_blank">video</a> |
+            <a
+            href="https://slideslive.com/38926541/on-pruning-adversarially-robust-neural-networks?ref=account-folder-46630-folders"
+            target="_blank">slides</a> |
+            <a href="https://github.com/inspire-group/compactness-robustness" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          We achieved state-of-the-art clean and robust accuracy when aggressively pruning the parameters of deep neural networks.
+        </p>
+      </div>
     </div>
 
     <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/folb/system.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">Fast-Convergent Federated Learning</p>
         <p class="authors">
           Hung T. Nguyen, <em>Vikash Sehwag</em>, Seyyedali Hosseinalipour,
           Christopher G. Brinton, Mung Chiang, H. Vincent Poor
         </p>
-        <p class="venue">
-          To appear in IEEE Journal on Selected Areas in Communications (J-SAC)
-          - Series on Machine Learning for Communications and Networks
+        <p>
+          <span class="venue">IEEE Journal on Selected Areas in Communications (J-SAC) - Series on Machine Learning for Communications and Networks 2020 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2007.13137" target="_blank">pdf</a>
+          </span>
         </p>
-        <p class="links">
-          <span><a href="./projects/soon.html" target="_blank">Project-page</a></span>
-          /
-          <span><a href="https://arxiv.org/pdf/2006.14077.pdf" target="_blank">Pdf</a></span>
-          /
-          <span><a href="./projects/folb/bibtex.html" target="_blank">Bibtex</a></span>
-        </p>
-
         <p class="summary">
           We proposed a fast-convergent federated learning algorithm, called
-          FOLB, which improves convergence speed by an intelligent sampling of
+          FOLB, which improves convergence speed by an smart sampling of
           devices in each round.
         </p>
-      </div>
-      <div class="pubs-image">
-        <img src="./projects/folb/system.png" />
       </div>
     </div>
 
     <div class="pubs-box">
+      <div class="pubs-image"><img src="./projects/ood_udl/tsne.png" /></div>
       <div class="pubs-data">
         <p class="title">
           A Critical Evaluation of Open-World Machine Learning
@@ -770,26 +797,24 @@
           Liwei Song, <em>Vikash Sehwag</em>, Arjun Nitin Bhagoji, Prateek
           Mittal
         </p>
-        <p class="venue">
-          ICML Workshop on Uncertainty & Robustness in Deep Learning , 2020
+        <p>
+          <span class="venue">ICML Workshop on Uncertainty & Robustness 2020 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/pdf/2007.04391.pdf" target="_blank">pdf</a> |
+            <a href="https://github.com/inspire-group/OOD-Attacks" target="_blank">code</a>
+          </span>
         </p>
-        <p class="links">
-          <span><a href="https://arxiv.org/pdf/2007.04391.pdf" target="_blank">Pdf</a></span>
-          /
-          <span><a href="./projects/ood_udl/bibtex.html" target="_blank">Bibtex</a></span>
-          /
-          <span><a href="https://github.com/inspire-group/OOD-Attacks" target="_blank">Code</a></span>
-        </p>
-
         <p class="summary">
-          We discover a conflict between the objective of open-world machine
+          We demonstrate a fundamental conflict between the learning objectives of open-world machine
           learning and adversarial robustness.
         </p>
       </div>
-      <div class="pubs-image"><img src="./projects/ood_udl/tsne.png" /></div>
     </div>
 
     <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/ood_aisec/outline.png" />
+      </div>
       <div class="pubs-data">
         <p class="title">
           Analyzing the Robustness of Open-World Machine Learning
@@ -798,265 +823,87 @@
           <em>Vikash Sehwag</em>, Arjun Nitin Bhagoji, Liwei Song, Chawin
           Sitawarin, Daniel Cullina, Mung Chiang, Prateek Mittal
         </p>
-        <p class="venue">
-          ACM Workshop on Artificial Intelligence and Security (AISec), 2019
+        <p>
+          <span class="venue">ACM Workshop on Artificial Intelligence and Security (AISec) 2019 - </span>
+          <span class="links">
+            <a href="https://dl.acm.org/doi/pdf/10.1145/3338501.3357372" target="_blank">pdf</a> |
+            <a href="https://docs.google.com/presentation/d/12NQfyzcztr00gjicu0-BzROV178_fSJNTXMraoCspvw/edit?usp=sharing" target="_blank">slides</a> |
+            <a href="https://github.com/inspire-group/OOD-Attacks" target="_blank">code</a>
+          </span>
         </p>
-        <p class="links">
-          <span><a href="https://dl.acm.org/doi/pdf/10.1145/3338501.3357372" target="_blank">Pdf</a></span>
-          /
-          <span><a href="./projects/ood_aisec/bibtex.html" target="_blank">Bibtex</a></span>
-          /
-          <span><a href="https://github.com/inspire-group/OOD-Attacks" target="_blank">Code</a></span>
-          /
-          <span><a
-              href="https://docs.google.com/presentation/d/12NQfyzcztr00gjicu0-BzROV178_fSJNTXMraoCspvw/edit?usp=sharing"
-              target="_blank">Slides</a></span>
-        </p>
-
         <p class="summary">
-          We demonstrate the vulnerability of open-world ML to adversarial
-          examples and proposed a defense.
+          We demonstrate the vulnerability of open-world machine learning models to adversarial
+          examples and proposed a defense against the open-world adversarial attacks. 
         </p>
       </div>
-
-      <div class="pubs-image">
-        <img src="./projects/ood_aisec/outline.png" />
-      </div>
     </div>
-    <!-- <div class="pubs-box"></div> -->
-    <!-- <div class="pubs-box"></div> -->
-
-    <!-- <div class="pubs-section">
-      <p class="theme">
-        <span id="theme-text">Theme:</span> Robust Open-world machine learning:
-        Making neural networks learn what they <em>do and don't know</em>, even
-        in presence of an adversary!
-      </p>
-
-      <div class="pubs-section-box">
-        <p class="bullet">&#9758;</p>
-        <div class="pubs-data">
-          <p class="title">
-            A Critical Evaluation of Open-World Machine Learning
-          </p>
-          <p class="authors">
-            Liwei Song, <em>Vikash Sehwag</em>, Arjun Nitin Bhagoji, Prateek
-            Mittal
-          </p>
-          <p class="venue">
-            ICML Workshop on Uncertainty & Robustness in Deep Learning , 2020
-          </p>
-          <p class="links">
-            <span
-              ><a href="https://arxiv.org/pdf/2007.04391.pdf" target="_blank"
-                >Pdf</a
-              ></span
-            >
-            /
-            <span
-              ><a href="./projects/ood_udl/bibtex.html" target="_blank"
-                >Bibtex</a
-              ></span
-            >
-            /
-            <span
-              ><a
-                href="https://github.com/inspire-group/OOD-Attacks"
-                target="_blank"
-                >Code</a
-              ></span
-            >
-          </p>
-
-          <p class="summary">
-            We discover a conflict between the objective of open-world machine
-            learning and adversarial robustness.
-          </p>
-        </div>
-        <div class="pubs-image"><img src="./projects/ood_udl/tsne.png" /></div>
-      </div>
-
-      <div class="pubs-section-box key-pubs">
-        <p class="bullet">&#9758;</p>
-        <div class="pubs-data">
-          <p class="title">
-            Analyzing the Robustness of Open-World Machine Learning
-          </p>
-          <p class="authors">
-            <em>Vikash Sehwag</em>, Arjun Nitin Bhagoji, Liwei Song, Chawin
-            Sitawarin, Daniel Cullina, Mung Chiang, Prateek Mittal
-          </p>
-          <p class="venue">
-            ACM Workshop on Artificial Intelligence and Security
-            (<strong>AISec</strong>), 2019
-          </p>
-          <p class="links">
-            <span
-              ><a
-                href="https://dl.acm.org/doi/pdf/10.1145/3338501.3357372"
-                target="_blank"
-                >Pdf</a
-              ></span
-            >
-            /
-            <span
-              ><a href="./projects/ood_aisec/bibtex.html" target="_blank"
-                >Bibtex</a
-              ></span
-            >
-            /
-            <span
-              ><a
-                href="https://github.com/inspire-group/OOD-Attacks"
-                target="_blank"
-                >Code</a
-              ></span
-            >
-            /
-            <span
-              ><a
-                href="https://docs.google.com/presentation/d/12NQfyzcztr00gjicu0-BzROV178_fSJNTXMraoCspvw/edit?usp=sharing"
-                target="_blank"
-                >Slides</a
-              ></span
-            >
-          </p>
-
-          <p class="summary">
-            We demonstrate the vulnerability of open-world ML to adversarial
-            examples and proposed a defense.
-          </p>
-        </div>
-
-        <div class="pubs-image">
-          <img src="./projects/ood_aisec/outline.png" />
-        </div>
-      </div>
-    </div> -->
-
-    <div class="pub-divider">
+    
+    <div class="full-project-divider2">
       <hr />
     </div>
 
-    <div class="pubs-section work-in-progress">
-      <p class="theme">Research Work in Undergraduate</p>
-
-      <div class="pubs-section-box">
-        <p class="bullet-small">&#10143;</p>
-        <div class="pubs-data">
-          A Parallel Stochastic Number Generator With Bit Permutation Networks
-          with N. Prasad and Indrajit Chakrabarti
-          <p class="authors">
-            IEEE Transactions on Circuits and Systems II: Express Briefs, 2017
-            (<a href="https://ieeexplore.ieee.org/abstract/document/7933972" target="_blank">Pdf</a>)
-          </p>
-        </div>
-      </div>
-      <div class="pubs-section-box">
-        <p class="bullet-small">&#10143;</p>
-        <div class="pubs-data">
-          Variation Aware Performance Analysis of TFETs for Low-Voltage
-          Computing with Saurav Maji and Mrigank Sharad
-          <p class="authors">
-            IEEE International Symposium on Nanoelectronic and Information
-            Systems (iNIS), 2016 (<a href="https://ieeexplore.ieee.org/document/7829530" target="_blank">Pdf</a>)
-          </p>
-        </div>
-      </div>
-      <div class="pubs-section-box">
-        <p class="bullet-small">&#10143;</p>
-        <div class="pubs-data">
-          TV-PUF: a fast lightweight analog physical unclonable function with
-          Tanujay Saha
-          <p class="authors">
-            IEEE International Symposium on Nanoelectronic and Information
-            Systems (iNIS), 2016 (<a href="https://ieeexplore.ieee.org/document/7829547" target="_blank">Pdf</a>)
-          </p>
-        </div>
-      </div>
-      <div class="pubs-section-box">
-        <p class="bullet-small">&#10143;</p>
-        <div class="pubs-data">
-          A Study of Stochastic SIS Disease Spreading on Random Graphs with
-          Wasiur R. KhudaBukhsh and Heinz Koeppl, 2016 (<a
-            href="https://drive.google.com/file/d/1s73reSAd5YrF6_uMkChskbYI9Ijc5xii/view?usp=sharing"
-            target="_blank">Pdf</a>)
-        </div>
-      </div>
-    </div>
-
-    <div class="full-project-divider">
-      <hr />
-    </div>
-
-    <div class="news container" id="teaching">
-      <p class="section-heading">Academic Services</p>
+    <div class="news container" id="code">
+      <p class="section-heading-small">Selected Open Source Repositories</p>
       <div class="pubs-section work-in-progress">
-        <p class="theme">Teaching and Mentoring</p>
+        <ul class="simple-ord-list">
+          <li><a href="https://github.com/RobustBench/robustbench">https://github.com/RobustBench/robustbench</a> | &#9733; 598 | <em>RobustBench leaderboard</em></li>
+          <li><a href="https://github.com/VSehwag/minimal-diffusion">https://github.com/VSehwag/minimal-diffusion</a> | &#9733; 214 | <em>Minimalistic implementation of diffusion models</em></li>
+          <li><a href="https://github.com/inspire-group/SSD">https://github.com/inspire-group/SSD</a> | &#9733; 125 | <em>Self-supervised outlier detection</em></li>
+          <li><a href="https://github.com/inspire-group/hydra">https://github.com/inspire-group/hydra</a> | &#9733; 88 | <em>Pruning adversarial robust networks</em></li>
+          <li><a href="https://github.com/inspire-group/proxy-distributions">https://github.com/inspire-group/proxy-distributions</a> | &#9733; 26 | <em>Improving adversarial robustness using synthetic data</em></li>
+          <li><a href="https://github.com/inspire-group/OOD-Attacks">https://github.com/inspire-group/OOD-Attacks</a> | &#9733; 12 | <em>Robust open-world machine learning</em></li>
+          <li><a href="https://github.com/inspire-group/robust_representation_similarity">https://github.com/inspire-group/robust_representation_similarity</a> | &#9733; 6 | <em>Representation similarity analysis for robust and non-robust networks</em></li>
+        </ul>
+    </div>
 
-        <div class="pubs-section-box">
-          <p class="bullet-small">&#10143;</p>
-          <div class="pubs-data">
-            Taught a mini-course on adversarial attacks & defenses (Winterssion
-            2020)
-          </div>
-        </div>
-        <div class="pubs-section-box">
-          <p class="bullet-small">&#10143;</p>
-          <div class="pubs-data">
-            Teaching assistant for ELE 535: Machine Learning and Pattern
-            Recognition (Fall 2019)
-          </div>
-        </div>
-        <div class="pubs-section-box">
-          <p class="bullet-small">&#10143;</p>
-          <div class="pubs-data">
-            Mentoring Princeton undergraduates for their senior independent
-            research work <br />
-            Tinashe Handina (B.S.E., Electrical Engineering 2021); Matteo Russo
-            (B.S.E., Computer Science 2020)
-          </div>
-        </div>
+    <div class="news container" id="code">
+      <p class="section-heading-small">Invited Talks</p>
+      <div class="pubs-section work-in-progress">
+        <ul class="simple-ord-list">
+          <li>On safety risks of generative AI - From ChatGPT to DallE.3 | <em>Nov 2023</em> | <em>Columbia University</em></li>
+          <li>Prospects and pitfalls of modern generative models - An AI safety perspective  | <em>Feb 2023</em> | <em>AAAI</em></li>
+          <li>Enhancing machine learning using synthetic data distilled from generative models | <em>Jan 2023</em> | <em>MSR</em></li>
+          <li>Role of synthetic data in trustworthy machine learning | <em>May 2022</em> | <em>UChicago, UBerkeley</em></li>
+          <li>A generative approach to robust machine learning | <em>Mar 2022</em> | <em>CISS Conference</em></li>
+          <li>A generative approach to robust machine learning | <em>Jan 2022</em> | <em>RIKEN-AIP TrustML Young Scientist Seminar</em></li>
+          <li>Generating novel hard-instances form low-density regions using generative models | <em>Aug 2021</em> | <em>Meta AI</em></li>
+          <li>A primer on adversarial machine learning | <em>July 2021</em> | <em>Princeton-Intel REU Seminar</em></li>
+          <li>Embedding data distribution to make machine learning more reliable | <em>Mar 2021</em> | <em>EPFL</em></li>
+          <li>Private Deep Learning Made Practical | <em>Oct 2019</em> | <em>Qualcomm</em></li>
+        </ul>
+    </div>
 
-        <p class="theme">Other Services</p>
-
-        <div class="pubs-section-box">
-          <p class="bullet-small">&#10143;</p>
-          <div class="pubs-data">
-            One of the core maintainers of Adversarial Robustness Benchmark (<a href="https://robustbench.github.io/"
-              target="_blank">robustbench.github.io</a>)
-          </div>
-        </div>
-        <div class="pubs-section-box">
-          <p class="bullet-small">&#10143;</p>
-          <div class="pubs-data">
-            Volunteered as junior mentor at Princeton-OLCF-NVIDIA GPU Hackathon
-            (June 2020)
-          </div>
-        </div>
-        <div class="pubs-section-box">
-          <p class="bullet-small">&#10143;</p>
-          <div class="pubs-data">
-            Reviewer for ACM Transactions on Privacy and Security (TOPS), PLOS
-            One
-          </div>
-        </div>
-        <div class="pubs-section-box">
-          <p class="bullet-small">&#10143;</p>
-          <div class="pubs-data">
-            Sub-reviewer for USENIX Security 2018, 2019
-          </div>
-        </div>
-      </div>
+    <div class="news container" id="code">
+      <p class="section-heading-small">Academic Services</p>
+      <strong>Teaching and Mentoring</strong>
+      <div class="pubs-section work-in-progress">
+        <ul class="simple-ord-list">
+          <li>Lecture on basics of adversarial machine learning | <em>Princeton-Intel REU Seminar 2021</em></li>
+          <li>Teaching assistant for ECE 574: Security & Privacy | <em>Fall 2021 - Princeton University</em> </li>
+          <li>Taught a mini-course on adversarial attacks & defenses | <em>Winterssion 2020 - Princeton University</em></li>
+          <li>Teaching assistant for ELE 535: Machine Learning and Pattern Recognition | <em>Fall 2019 - Princeton University</em></li>
+          <li>Mentored ten students in AI research over the years: <em>Edoardo Debenedetti, Rajvardhan Oak, Christian Cianfarani, Tinashe Handina, Matteo Russo, Xianghao Kong, Song Wen, Minzhou Pan, Zhenting Wang, Jie Ren.</em> </li>
+        </ul>
+      <strong>Other Services</strong>
+      <div class="pubs-section work-in-progress">
+        <ul class="simple-ord-list">
+          <li>Workshop organizer - ICCV 2023 ARROW workshop, CVPR 2023 Workshop of Adversarial Machine Learning on Computer Vision: Art of Robustness 2023</li>
+          <li>Program committe member for IEEE Conference on Secure and Trustworthy Machine Learning - 2023</li>
+          <li>Organized more than 20 talks on security & privacy in machine learning (<a href="https://vsehwag.github.io/SPML_seminar/">SPML seminar series</a>) - 2022</li>
+          <li>One of the core maintainers of Adversarial Robustness Benchmark | <a href="https://robustbench.github.io/"
+            target="_blank">robustbench.github.io</a></li>
+          <li>Volunteered as junior mentor at Princeton-OLCF-NVIDIA GPU Hackathon | <em>June 2020 - Princeton University</em> </li>
+          <li>Reviewed more than 50 papers for major computer vision and machine learning conferences and journals.</em></li>
+        </ul>
     </div>
   </div>
 
-  <div class="full-project-divider">
+  <div class="full-project-divider2">
     <hr />
   </div>
 
   <footer>
-    <small>&copy; 2022, Vikash Sehwag &emsp; &emsp; &emsp; Feel free to use the
+    <small>&copy; 2024, Vikash Sehwag &emsp; &emsp; &emsp; Feel free to use the
       <a href="https://github.com/VSehwag/vsehwag.github.io" , target="_blank">source code.</a>
     </small>
   </footer>
