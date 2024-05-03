@@ -31,6 +31,12 @@ body {
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
+.container {
+  margin: 10px auto;
+  font-weight: normal;
+  padding: 0;
+}
+
 .container,
 .project-divider {
   margin: 0 auto;
@@ -70,11 +76,6 @@ a:hover, i:hover {
   margin: auto;
 }
 
-.container {
-  margin: 10px auto;
-  font-weight: normal;
-}
-
 .navbar {
   background: none;
   height: 65px;
@@ -107,7 +108,7 @@ a:hover, i:hover {
 .navbar-brand {
   color: inherit;
   cursor: pointer;
-  padding-left: 40px;
+  padding-left: 5px;
 }
 
 .navbar-toggler-icon {
@@ -175,9 +176,9 @@ a:hover, i:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.box {
+/* .box {
   padding: 0px 10px;
-}
+} */
 
 .box h2,
 h3 {
@@ -191,7 +192,7 @@ h3 {
   grid-row-gap: 0px; /* reduces to spacing below grid for 1 row */
   grid-template-columns: 1fr 2fr;
   padding: 10px 0px 0px 0px;
-  margin: 10px auto;
+  margin: 0px auto;
   /* make sure nav-bar doesn't cover it.  margin-top: 100px; */
 }
 
@@ -210,7 +211,8 @@ h3 {
   padding: 0;
   text-align: justify;
   margin-left: auto;
-  width: 95%;
+  padding-left: 10px;
+  /* width: 95%; */
   /* margin-right: 5px; */
   /* font-size: 0.95em; */
 }
@@ -225,13 +227,13 @@ h3 {
   padding-top: 1px;
 }
 
-.profile .name {
+/* .profile .name {
   margin-top: 10px;
   padding: 10px 0px;
   text-align: center;
   font-size: 2.2em;
   font-weight: normal;
-}
+} */
 
 .profile .affil {
   font-size: 1.2em;
@@ -398,18 +400,17 @@ h3 {
   padding: 20px 20px;
 }
 
-.publications {
+/* .publications {
   padding-left: 50px;
-}
+} */
 
 .pubs-box {
   display: grid;
   grid-template-columns: 200px 4fr;
   column-gap: 40px;
-  /* margin-top: 10px; */
-  margin-bottom: 15px;
+  margin: 0px 0px 15px 0px;
   font-size: 0.95em;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 10px;
   /* grid-template-rows: 140px; */
   overflow: auto;
 }
@@ -447,6 +448,7 @@ h3 {
   position: relative; /* Ensure the div is a containing block */
   overflow: hidden; /* This will hide any part of the image that overflows */
   margin: auto;
+  margin-left: 0px;
 }
 
 .pubs-image img {
