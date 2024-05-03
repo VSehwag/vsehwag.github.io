@@ -198,6 +198,7 @@ h3 {
 
 .profile {
   grid-column: 1 / 2; /* Occupies the first column in the first row */
+  padding-right: 5px;
 }
 
 .about-me {
