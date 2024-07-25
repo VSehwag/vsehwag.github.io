@@ -117,7 +117,7 @@
           <strong>Research interests.</strong> Uncovering and mitigating safety risks in the development of next-generation of trustworthy AI systems.
           <ul>
             <li>
-              <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">1</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">2</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">3</a>, <a href="https://arxiv.org/abs/2212.04486">4</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">5</a>, <a href="./projects/2024/jbb/pl.html">6</a>].
+              <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">1</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">2</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">3</a>, <a href="https://arxiv.org/abs/2212.04486">4</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">5</a>, <a href="https://jailbreakbench.github.io/">6</a>].
             </li>
             <li>
               <strong>Responsible data synthesis.</strong> Concerned by the vast amount of generative content online, we've recently developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">7</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">8</a>].
@@ -126,7 +126,7 @@
               <strong>Robust machine learning.</strong> We have conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">9</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">10</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">11</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">12</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">13</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">14</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">15</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">16</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">17</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">18</a>].
             </li>
             <li>
-              <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">19</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">20</a>], and most recently JailbreakBench [<a href="./projects/2024/jbb/pl.html">6</a>] to benchmark progress on jailbreaks against LLMs. We have also written a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">21</a>].
+              <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">19</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">20</a>], and most recently JailbreakBench [<a href="https://jailbreakbench.github.io/">6</a>] to benchmark progress on jailbreaks against LLMs. We have also written a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">21</a>].
             </li>
           </ul>
         </div>
@@ -343,6 +343,53 @@
 
     <div class="pubs-box key-pubs">
       <div class="pubs-image">
+        <img src="./projects/microdit/demo.png" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          Stretching Each Dollar: Diffusion Training from Scratch on a Micro-Budget
+        </p>
+        <p class="authors">
+          <em>Vikash Sehwag</em>, Xianghao Kong, Jingtao Li, Michael Spranger, Lingjuan Lyu
+        </p>
+        <p>
+          <span class="venue">Arxiv 2024 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2407.15811" target="_blank">pdf</a> |
+            <a href="https://github.com/SonyResearch/micro_diffusion" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          We train a stable-diffusion quality model with only $2,000 budget (14x cost reduction) and publicly available 37M images (not requiring any proprietry or billion image dataset). 
+        </p>
+      </div>
+    </div>
+
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/wmd/demo.webp" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          Finding Needles in a Haystack: A Black-Box Approach to Invisible Watermark Detection
+        </p>
+        <p class="authors">
+          Minzhou Pan, Zhenting Wang, Xin Dong, <em>Vikash Sehwag</em>, Lingjuan Lyu, Xue Lin
+        </p>
+        <p>
+          <span class="venue">ECCV 2024 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/pdf/2403.15955" target="_blank">pdf</a>
+          </span>
+        </p>
+        <p class="summary">
+          We propose WaterMark Detector (WMD), the first invisible watermark detection method under a black-box and annotation-free setting.
+        </p>
+      </div>
+    </div>
+    
+    <div class="pubs-box">
+      <div class="pubs-image">
         <img src="./projects/trace/demo.png" />
       </div>
       <div class="pubs-data">
@@ -353,11 +400,11 @@
           Zhenting Wang, <em>Vikash Sehwag</em>, Chen Chen, Lingjuan Lyu, Dimitris N. Metaxas, Shiqing Ma
         </p>
         <p>
-          <span class="venue">ICML 2024 (to appear)</span>
-          <!-- <span class="links">
-            <a href="https://openreview.net/pdf?id=TwZ2sY6eJj" target="_blank">pdf</a> | 
-            <a href="https://github.com/inspire-group/DP-RandP" target="_blank">code</a>
-          </span> -->
+          <span class="venue">ICML 2024 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/html/2405.13360v1" target="_blank">pdf</a> | 
+            <a href="https://github.com/ZhentingWang/LatentTracer" target="_blank">code</a>
+          </span>
         </p>
         <p class="summary">
           Using signature from the latent autoencoders, we propose an approach to trace synthetic images back to the source latent generative model.
@@ -377,7 +424,10 @@
           Ashwinee Panda, Xinyu Tang, <em>Vikash Sehwag</em>, Saeed Mahloujifar, Prateek Mittal
         </p>
         <p>
-          <span class="venue">ICML 2024 (to appear)</span>
+          <span class="venue">ICML 2024 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2212.04486" target="_blank">pdf</a>
+          </span>
         </p>
         <p class="summary">
           We consider the cost of hyperparameter optimization in differentially private learning and propose a strategy that prvoides linear scaling of hyperparameters, thus reducing the privacy cost and simultaneously achieving state-of-the-art performance across 22 benchmark tasks in CV and NLP. 
