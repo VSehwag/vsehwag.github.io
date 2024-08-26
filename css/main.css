@@ -213,10 +213,13 @@ h3 {
   text-align: justify;
   margin-left: auto;
   padding-left: 10px;
-  font-size: 0.9em;
   /* width: 95%; */
   /* margin-right: 5px; */
   /* font-size: 0.95em; */
+}
+
+.interests .interests_text {
+  font-size: 0.9em;
 }
 
 .interests ul{
