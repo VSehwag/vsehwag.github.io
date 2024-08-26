@@ -80,7 +80,7 @@
       </div>
       <div class="box about-me">
         <p>
-          I am a research scientist at <a href="https://ai.sony/" target="_blank">Sony AI</a> where I lead efforts on enhancing safety and utility of large-scale generative models.
+          I am a research scientist at <a href="https://ai.sony/" target="_blank">Sony AI</a> where I lead efforts on enhancing capabilties and safety of large-scale generative models, particularly multimodal models. 
         </p>
         <p>
           I received my PhD from <a href="https://www.princeton.edu/">Princeton University</a> where I was advised by
@@ -89,9 +89,10 @@
             Research</a>. I
           have been fortunate to receive
           <a href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
-            target="_blank">Qualcomm Innovation Fellowship</a> and the <a href="https://sites.google.com/view/advml/advml-rising-star-award">Rising Star Award</a> in adversarial machine learning. I previously organized the first
-            <a href="https://vsehwag.github.io/SPML_seminar/" target="_blank">seminar series on Security & Privacy in
-              Machine Learning (SPML)</a> at Princeton University.
+            target="_blank">Qualcomm Innovation Fellowship</a> and the <a href="https://sites.google.com/view/advml/advml-rising-star-award">Rising Star Award</a> in adversarial machine learning. 
+            <!-- I previously organized the first -->
+            <!-- <a href="https://vsehwag.github.io/SPML_seminar/" target="_blank">seminar series on Security & Privacy in -->
+              <!-- Machine Learning (SPML)</a> at Princeton University. -->
         </p>
         <ul>
           <li>
@@ -114,19 +115,22 @@
       </div>
       <div class="interests">
         <div>
-          <strong>Research interests.</strong> Uncovering and mitigating safety risks in the development of next-generation of trustworthy AI systems.
+          <strong>Research interests.</strong> My overarching goal is to safely and responsibly develop the next generation of generative AI systems. My research work has focused on democratizing the end-to-end development of generative models, benchmarking and mitigating safety risks, rigorously exploring robust deep learning, and developing data provenance methods for AI-generated content.
           <ul>
-            <li>
-              <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">1</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">2</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">3</a>, <a href="https://arxiv.org/abs/2212.04486">4</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">5</a>, <a href="https://jailbreakbench.github.io/">6</a>].
+            <li> 
+              <strong>Democratizing end-to-end GenAI development.</strong> In our latest work, we reduced the cost of training text-to-image diffusion models from scratch by 14x (to less than $2,000) while achieving image generation quality comparable to early Stable Diffusion models [<a href="https://arxiv.org/abs/2407.15811">1</a>].
             </li>
             <li>
-              <strong>Responsible data synthesis.</strong> Concerned by the vast amount of generative content online, we've recently developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">7</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">8</a>].
+              <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">2</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">3</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">4</a>, <a href="https://arxiv.org/abs/2212.04486">5</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">6</a>, <a href="https://jailbreakbench.github.io/">7</a>].
             </li>
             <li>
-              <strong>Robust machine learning.</strong> We have conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">9</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">10</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">11</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">12</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">13</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">14</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">15</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">16</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">17</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">18</a>].
+              <strong>Data provenance.</strong> Concerned by the vast amount of generative content online, we've recently developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">8</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">9</a>].
             </li>
             <li>
-              <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">19</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">20</a>], and most recently JailbreakBench [<a href="https://jailbreakbench.github.io/">6</a>] to benchmark progress on jailbreaks against LLMs. We have also written a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">21</a>].
+              <strong>Robust machine learning.</strong> We have conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">10</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">11</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">12</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">13</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">14</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">15</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">16</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">17</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">18</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">19</a>].
+            </li>
+            <li>
+              <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">20</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">21</a>], and most recently JailbreakBench [<a href="https://jailbreakbench.github.io/">6</a>] to benchmark progress on jailbreaks against LLMs. We have also written a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">22</a>].
             </li>
           </ul>
         </div>
