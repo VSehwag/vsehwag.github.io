@@ -54,9 +54,9 @@
           <!-- <li class="nav-item">
             <a class="nav-link" href="#teaching">Teaching</a>
           </li> -->
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="./docs/vikash_sehwag_cv.pdf" target="_blank">CV</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="https://vsehwag.github.io/blog">Blog</a>
           </li>
@@ -72,7 +72,7 @@
     <div class="bio">
       <div class="box profile">
         <div class="headshot">
-          <img src="./images/headshot.jpg" alt="Udari Madhushani" />
+          <img src="./images/headshot.jpg" alt="Vikash Sehwag" />
         </div>
         <h2 class="name section-heading"></h2>
         <h3 class="affil">Research Scientist, GDM</h3>
@@ -80,28 +80,19 @@
       </div>
       <div class="box about-me">
         <p>
-          I am a research scientist at <a href="https://deepmind.google" target="_blank">Google Deepmind</a>, working on Gemini post-training. I was earlier a research scientist at <a href="https://ai.sony/" target="_blank">Sony AI</a> where I led efforts on enhancing capabilties and safety of large-scale generative models, particularly multimodal models. 
+          I am a research scientist in Gemini’s core post-training team at <a href="https://deepmind.google" target="_blank">Google DeepMind</a>. I work on improving reasoning, RL, and overall post-training effectiveness.
         </p>
         <p>
-          I received my PhD from <a href="https://www.princeton.edu/">Princeton University</a> where I was advised by
-          Prof. Prateek Mittal and Prof. Mung Chiang. I previously interned at <a href="https://ai.facebook.com/" target="_blank">Meta AI</a>  (AI Red Team) and
-          <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/" target="_blank">Microsoft
-            Research</a>. I
-          have been fortunate to receive
-          <a href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship/winners"
-            target="_blank">Qualcomm Innovation Fellowship</a> and the <a href="https://sites.google.com/view/advml/advml-rising-star-award">Rising Star Award</a> in adversarial machine learning. 
-            <!-- I previously organized the first -->
-            <!-- <a href="https://vsehwag.github.io/SPML_seminar/" target="_blank">seminar series on Security & Privacy in -->
-              <!-- Machine Learning (SPML)</a> at Princeton University. -->
+          I received my PhD from <a href="https://www.princeton.edu/">Princeton University</a> and undergraduate from <a href="https://www.iitkgp.ac.in/">IIT Kharagpur</a>. My previous experience includes Meta AI, Sony AI, and Microsoft Research.
         </p>
         <ul>
           <li>
             <a href="https://scholar.google.com/citations?user=JAkeEG8AAAAJ&hl=en" target="_blank"><i
                 class="ai ai-google-scholar"></i></a>
           </li>
-          <li>
+          <!-- <li>
             <a href="https://dblp.org/pid/187/5613.html" target="_blank"><i class="ai ai-dblp"></i></a>
-          </li>
+          </li> -->
           <li>
             <a href="https://www.linkedin.com/in/vikash-sehwag/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </li>
@@ -113,26 +104,30 @@
           </li>
         </ul>
       </div>
+
+
       <div class="interests">
+        <br>
         <div class="interests_text">
-          <strong>Research interests.</strong> My overarching goal is to safely and responsibly develop the next generation of generative AI systems. My research work has focused on democratizing the end-to-end development of generative models, benchmarking and mitigating safety risks, rigorously exploring robust deep learning, and developing data provenance methods for AI-generated content.
-          <ul>
+          <strong>Summary of Previous Research Work.</strong> My current research efforts are focused on enhancing reasoning and RL in Gemini. Prior to this, my research spanned five key areas.
+           <!-- focused on democratizing the end-to-end development of generative models, benchmarking and mitigating safety risks, rigorously exploring robust deep learning, and developing data provenance methods for AI-generated content. -->
+          <ol>
             <li> 
-              <strong>Democratizing end-to-end GenAI development.</strong> In our latest work, we reduced the cost of training text-to-image diffusion models from scratch by 14x (to less than $2,000) while achieving image generation quality comparable to early Stable Diffusion models [<a href="https://arxiv.org/abs/2407.15811">1</a>].
+              <strong>Democratizing end-to-end GenAI development.</strong> I led end-to-end development of text-to-image generative models that cut training cost by 14x (to less than $2,000) while achieving image generation quality comparable to early Stable Diffusion models [<a href="https://arxiv.org/abs/2407.15811">1</a>]. In another project, we developed a highly compact yet multitask foundation model for vision [<a href="https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html">2</a>]. 
             </li>
             <li>
-              <strong>Safer generative AI.</strong> We have demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">2</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">3</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">4</a>, <a href="https://arxiv.org/abs/2212.04486">5</a>]. We have also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">6</a>, <a href="https://jailbreakbench.github.io/">7</a>].
+              <strong>Data provenance in age of GenAI.</strong> Concerned by the vast amount of generative content online, we developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">3</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">4</a>].
             </li>
             <li>
-              <strong>Data provenance.</strong> Concerned by the vast amount of generative content online, we've recently developed techniques to identify synthetic samples [<a href="./projects/2024/watermarks/pl.html">8</a>], even in the absence of artificial watermarks, and tracing them to source generative models [<a href="./projects/2024/tracing/pl.html">9</a>].
+              <strong>Safer generative AI.</strong> We demonstrated privacy risks in real-world diffusion models and developed privacy-preserving sampling and training methods [<a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf">5</a>, <a href="https://openreview.net/forum?id=vuVGcl0ed1">6</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7058bc192a37f5e5a57398887b05f6f6-Abstract-Conference.html">7</a>, <a href="https://arxiv.org/abs/2212.04486">8</a>]. We also developed techniques and benchmarked automated generation of adversarial and unsafe content from generative models [<a href="https://arxiv.org/abs/2203.17260">9</a>, <a href="https://jailbreakbench.github.io/">10</a>].
             </li>
             <li>
-              <strong>Robust machine learning.</strong> We have conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">10</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">11</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">12</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">13</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">14</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">15</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">16</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">17</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">18</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">19</a>].
+              <strong>Benchmarking and evals.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">11</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">12</a>], and most recently JailbreakBench [<a href="https://jailbreakbench.github.io/">13</a>] to benchmark progress on jailbreaks against LLMs. We have also written a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">14</a>].
             </li>
             <li>
-              <strong>Benchmarking progress in AI safety.</strong> We developed the widely adopted RobustBench benchmark [<a href="https://robustbench.github.io/">20</a>], followed by MultiRobustBench to account for multiple attacks [<a href="https://proceedings.mlr.press/v202/dai23c">21</a>], and most recently JailbreakBench [<a href="https://jailbreakbench.github.io/">6</a>] to benchmark progress on jailbreaks against LLMs. We have also written a detailed discussion on nuanced similarity and distinction in security and safety approaches towards Trustworthy AI [<a href="./projects/2024/sec_vs_safety/pl.html">22</a>].
+              <strong>Robust machine learning.</strong> We conducted an in-depth exploration of adversarial robust learning, including circumventing its higher sample complexity using synthetic data [<a href="https://openreview.net/forum?id=WVX0NNVBBkV">15</a>], finding fundamental limits on robustness [<a href="https://proceedings.mlr.press/v139/bhagoji21a">16</a>], demonstrating higher robustness with transformers [<a href="https://openreview.net/forum?id=IztT98ky0cKs">17</a>], robustness across threat models [<a href="https://www.usenix.org/conference/usenixsecurity21/presentation/xiang">18</a>, <a href="https://proceedings.mlr.press/v202/wu23h/wu23h.pdf">19</a>, <a href="https://openreview.net/forum?id=SbAaNa97bzp">20</a>], the effect of model scaling and compression [<a href="https://arxiv.org/abs/2312.13131">21</a>, <a href="https://proceedings.neurips.cc/paper/2020/hash/e3a72c791a69f87b05ea7742e04430ed-Abstract.html">22</a>], and adversarial risks in transitioning from closed-domain to open-world systems [<a href="https://dl.acm.org/doi/10.1145/3338501.3357372">23</a>, <a href="https://openreview.net/pdf?id=v5gjXpmR8J">24</a>].
             </li>
-          </ul>
+          </ol>
         </div>
       </div>
     </div>
@@ -343,8 +338,101 @@
       <div class="full-project-divider2"><hr /></div>
     <p class="section-heading">Publications</p>
     <!-- Create a copy of pubs-box for a new entry and pubs-section for a group of entries-->
-    <h5>2024</h5>
+    <h5>2025</h5>
+    <div class="pubs-box key-pubs">
+      <div class="pubs-image">
+        <img src="./projects/gemini2_5/gemini_logo.png"/>
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities
+        </p>
+        <p class="authors">
+          Gemini Team, Google Deepmind
+        </p>
+        <p>
+          <span class="venue">Arxiv 2025 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2507.06261" target="_blank">pdf</a>
+          </span>
+        </p>
+        <p class="summary">
+          Our latest series of Gemini models featured state-of-the-art performance across modalities and task complexity. My work contributed to post-training data curation and RL improvements in the model.
+        </p>
+      </div>
+    </div>
 
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/test_time/logo.png" />
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          Does More Inference-Time Compute Really Help Robustness?
+        </p>
+        <p class="authors">
+          Tong Wu, Chong Xiang, Jiachen T. Wang, Weichen Yu, Chawin Sitawarin, <em>Vikash Sehwag</em>, Prateek Mittal
+        </p>
+        <p>
+          <span class="venue">Arxiv 2025 - </span>
+          <span class="links">
+            <a href="https://arxiv.org/abs/2507.15974" target="_blank">pdf</a>
+          </span>
+        </p>
+        <p class="summary">
+          We show that inference-time scaling has a dual relationship with robustness: it improves robustness in a black-box threat model but degrades robustness when reasoning traces are visible to the adversary.
+        </p>
+      </div>
+    </div>
+
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/argus/performance.png"/>
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          Argus: A Compact and Versatile Foundation Model for Vision
+        </p>
+        <p class="authors">
+          Weiming Zhuang, Chen Chen, ..., Vikash Sehwag, ..., Peter Stone, Lingjuan Lyu
+        </p>
+        <p>
+          <span class="venue">CVPR 2025 - </span>
+          <span class="links">
+            <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html" target="_blank">pdf</a>
+          </span>
+        </p>
+        <p class="summary">
+          We created a compact yet versatile vision foundation model that unifies multiple vision tasks under one architecture, delivering state-of-the-art performance with a fraction of the data, compute, and parameters of existing models.
+        </p>
+      </div>
+    </div>
+
+    <div class="pubs-box">
+      <div class="pubs-image">
+        <img src="./projects/spybench/logo.png"/>
+      </div>
+      <div class="pubs-data">
+        <p class="title">
+          CO-SPY: Combining Semantic and Pixel Features to Detect Synthetic Images by AI
+        </p>
+        <p class="authors">
+          Siyuan Cheng, Lingjuan Lyu, Zhenting Wang, Xiangyu Zhang, <em>Vikash Sehwag</em>
+        </p>
+        <p>
+          <span class="venue">CVPR 2025 - </span>
+          <span class="links">
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JAkeEG8AAAAJ&sortby=pubdate&citation_for_view=JAkeEG8AAAAJ:TFP_iSt0sucC" target="_blank">pdf</a> |
+            <a href="https://github.com/Megum1/Co-Spy" target="_blank">code</a>
+          </span>
+        </p>
+        <p class="summary">
+          We achieve up to 34% better AI-generated image detection by combining cues from image semantics (like the number of fingers) with subtle pixel-level artifacts, and release CO-SPYBench, a comprehensive dataset of synthetic images from 22 top generative models and 50K in-the-wild deepfakes.
+        </p>
+      </div>
+    </div>
+    
+    <h5>2024</h5>
     <div class="pubs-box key-pubs">
       <div class="pubs-image">
         <img src="./projects/microdit/demo.png" />
@@ -357,7 +445,7 @@
           <em>Vikash Sehwag</em>, Xianghao Kong, Jingtao Li, Michael Spranger, Lingjuan Lyu
         </p>
         <p>
-          <span class="venue">Arxiv 2024 - </span>
+          <span class="venue">CVPR 2025 - </span>
           <span class="links">
             <a href="https://arxiv.org/abs/2407.15811" target="_blank">pdf</a> |
             <a href="https://github.com/SonyResearch/micro_diffusion" target="_blank">code</a>
@@ -897,19 +985,20 @@
       <p class="section-heading-small">Selected Open Source Repositories</p>
       <div class="pubs-section work-in-progress">
         <ul class="simple-ord-list">
-          <!-- Add microDit code here. -->
-          <li><a href="https://github.com/RobustBench/robustbench">https://github.com/RobustBench/robustbench</a> | &#9733; 642 | <em>RobustBench leaderboard</em></li>
-          <li><a href="https://github.com/VSehwag/minimal-diffusion">https://github.com/VSehwag/minimal-diffusion</a> | &#9733; 237 | <em>Minimalistic implementation of diffusion models</em></li>
-          <li><a href="https://github.com/inspire-group/SSD">https://github.com/inspire-group/SSD</a> | &#9733; 130 | <em>Self-supervised outlier detection</em></li>
-          <li><a href="https://github.com/inspire-group/hydra">https://github.com/inspire-group/hydra</a> | &#9733; 88 | <em>Pruning adversarial robust networks</em></li>
-          <li><a href="https://github.com/inspire-group/proxy-distributions">https://github.com/inspire-group/proxy-distributions</a> | &#9733; 26 | <em>Improving adversarial robustness using synthetic data</em></li>
-          <li><a href="https://github.com/inspire-group/OOD-Attacks">https://github.com/inspire-group/OOD-Attacks</a> | &#9733; 12 | <em>Robust open-world machine learning</em></li>
-          <li><a href="https://github.com/inspire-group/robust_representation_similarity">https://github.com/inspire-group/robust_representation_similarity</a> | &#9733; 6 | <em>Representation similarity analysis for robust and non-robust networks</em></li>
+          <li><a href="https://github.com/SonyResearch/micro_diffusion">https://github.com/SonyResearch/micro_diffusion</a> | &#9733; 1512 | <em>MicroDiffusion (Training Stable diffusion in $2,000)</em></li>
+          <li><a href="https://github.com/RobustBench/robustbench">https://github.com/RobustBench/robustbench</a> | &#9733; 730 | <em>RobustBench leaderboard</em></li>
+          <li><a href="https://github.com/VSehwag/minimal-diffusion">https://github.com/VSehwag/minimal-diffusion</a> | &#9733; 290 | <em>Minimalistic implementation of diffusion models</em></li>
+          <li><a href="https://github.com/inspire-group/SSD">https://github.com/inspire-group/SSD</a> | &#9733; 137 | <em>Self-supervised outlier detection</em></li>
+          <li><a href="https://github.com/inspire-group/hydra">https://github.com/inspire-group/hydra</a> | &#9733; 92 | <em>Pruning adversarial robust networks</em></li>
+          <li><a href="https://github.com/inspire-group/proxy-distributions">https://github.com/inspire-group/proxy-distributions</a> | &#9733; 29 | <em>Improving adversarial robustness using synthetic data</em></li>
+          <li><a href="https://github.com/inspire-group/robust_representation_similarity">https://github.com/inspire-group/robust_representation_similarity</a> | &#9733; 7 | <em>Representation similarity analysis for robust and non-robust networks</em></li>
         </ul>
 
       <p class="section-heading-small">Invited Talks</p>
       <div class="pubs-section work-in-progress">
         <ul class="simple-ord-list">
+          <li>How to train stable diffusion under $2,000 | <em>June 2025</em> | <em>DLCT Seminar - ML Collection</em></li>
+          <li>How to train stable diffusion under $2,000 | <em>Nov 2024</em> | <em>BuzzRobot AI Community</em></li>
           <li>How to train stable diffusion under $2,000 | <em>Aug 2024</em> | <em>SPARK Seminar - Google</em></li>
           <li>On safety risks of generative AI - From ChatGPT to DallE.3 | <em>Nov 2023</em> | <em>Columbia University</em></li>
           <li>Prospects and pitfalls of modern generative models - An AI safety perspective  | <em>Feb 2023</em> | <em>AAAI</em></li>
@@ -952,8 +1041,7 @@
   </div>
 
   <footer>
-    <small>&copy; 2024, Vikash Sehwag &emsp; &emsp; &emsp; Feel free to use the
-      <a href="https://github.com/VSehwag/vsehwag.github.io" , target="_blank">source code.</a>
+    <small>&copy; 2024, Vikash Sehwag</a>
     </small>
   </footer>
 </body>
